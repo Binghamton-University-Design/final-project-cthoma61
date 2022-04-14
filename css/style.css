@@ -11,14 +11,55 @@ body {
   color:  var(--body-color);
   background: var(--background-color);
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
 #wrapper {
   margin: 0 auto;
   max-width: 1200px;
 }
 div.ex1 {
-  width: 150px;
+  display: inline-block;
   padding: 25px;
   background-color: rgb(62, 82, 107);
   border-radius: 100px;
+  width: 270px;
   text-align: center;
+  margin: 0 auto;
+}
+
+div.rcorners1 {
+  border-radius: 40px;
+  background-color: rgb(62, 82, 107);
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+h4:before {
+  display: inline;
+  content: '';
+  background-size: cover;
+  background-repeat: none;
+  padding-left: 2.2em;
+}
+
+h4.ar-stats:before {
+  background-image: url('../images/ar-stats.svg');
+}
+
+h4.smg-stats:before {
+  background-image: url('../images/smg-stats.svg');
 }
