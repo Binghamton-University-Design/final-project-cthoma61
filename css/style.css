@@ -27,13 +27,13 @@ h4 {
   max-width: 1200px;
 }
 div.ex1 {
-  display: inline-block;
+  display: block;
   padding: 25px;
   background-color: rgb(62, 82, 107);
   border-radius: 100px;
   width: 270px;
   text-align: center;
-  margin: 0 auto;
+  margin: 1em auto 1em auto;
 }
 
 div.rcorners1 {
