@@ -43,6 +43,8 @@ div.rcorners1 {
   text-align: center;
   font-weight: 600;
   font-size: 20;
+  width: 350px;
+  height: 400px;
 }
 
 h4 {
@@ -57,9 +59,33 @@ h4:before {
 }
 
 h4.ar-stats:before {
-  background-image: url('../images/ar-stats.svg');
+  background-image: url('../images/gunv5-01.svg');
 }
 
 h4.smg-stats:before {
-  background-image: url('../images/smg-stats.svg');
+  background-image: url('../images/gunv6-01-01.svg');
+}
+
+h4.map-info:before {
+  background-image: url('../images/map2-01.svg');
+}
+
+h4.op-info:before {
+  background-image: url('../images/op-info-01.svg');
+}
+
+h4.op-tips:before {
+  background-image: url('../images/light-bulb-01.svg');
+}
+
+h4.spawn-peeks:before {
+  background-image: url('../images/spawnv3-01.svg');
+}
+
+#footer {
+  padding: 50px;
+  align-content: space-between;
+  background-color: rgb(29, 40, 51);
+  margin-top: 50px;
+  text-align: right;
 }
