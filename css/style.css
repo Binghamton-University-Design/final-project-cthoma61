@@ -87,5 +87,8 @@ h4.spawn-peeks:before {
   align-content: space-between;
   background-color: rgb(29, 40, 51);
   margin-top: 50px;
+}
+
+#footer .contact {
   text-align: right;
 }
