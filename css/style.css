@@ -105,8 +105,12 @@ div.ex2 {
   border-radius: 100px;
   width: 200px;
   text-align: center;
+<<<<<<< Updated upstream
   margin: 1em auto 1em auto;
 }
+=======
+  }
+>>>>>>> Stashed changes
 
 
 div.rcorners2 {
