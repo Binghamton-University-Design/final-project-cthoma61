@@ -50,7 +50,7 @@ div.rcorners1 {
 h4 {
   font-size: 1.5em;
 }
-h4:before {
+h4:before, h5:before {
   display: inline;
   content: '';
   background-size: cover;
@@ -58,7 +58,7 @@ h4:before {
   padding-left: 2.2em;
 }
 
-h4.ar-stats:before {
+h4.ar-stats:before, h5.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
@@ -112,15 +112,13 @@ div.ex2 {
 div.rcorners2 {
   border-radius: 40px;
   background-color: rgb(62, 82, 107);
-  padding: 5px;
+  padding: 0;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
-  padding: 1000px;
-
 font-family: inter;
   margin: 0;
-  padding: 0;
+  padding-top: 2em;
 }
 
 .container {
