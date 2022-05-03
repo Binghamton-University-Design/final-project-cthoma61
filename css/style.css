@@ -105,12 +105,8 @@ div.ex2 {
   border-radius: 100px;
   width: 200px;
   text-align: center;
-<<<<<<< Updated upstream
-  margin: 1em auto 1em auto;
-}
-=======
+  align-items: center;
   }
->>>>>>> Stashed changes
 
 
 div.rcorners2 {
@@ -119,5 +115,41 @@ div.rcorners2 {
   padding: 5px;
   text-align: center;
   font-weight: 600;
-  font-size: 20;
+  font-size: 20px;
+  padding: 1000px;
+
+font-family: inter;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar-items {
+  background: rgb(62, 82, 107);
+  width: 20%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 20px;
+  margin: 0px 5px;  
+}
+
+
+.navbar-items:hover {
+  background: gray;
+}
+
+@media only screen and (max-width: 380px) {
+    .container {
+      display: block;
+    }
+    .navbar-items {
+      width: 100%;
+    }
 }
