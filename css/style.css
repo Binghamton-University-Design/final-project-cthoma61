@@ -118,8 +118,7 @@ div.rcorners2 {
   font-size: 20px;
   font-family: inter;
   margin: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 2em;
 }
 
 .container {
@@ -157,12 +156,22 @@ div.rcorners2 {
 
 
 /*Op Info*/
-div.sledge {
-  margin-bottom: 100px;
-  width: 150px;
-  margin-left: 100px;
-}
 
+.op-info-item
+{
+  text-align: left;
+  margin-bottom: 2em;
+}
+.icon
+{
+  text-align: center;
+}
+.icon image
+{
+  display: inline-block;
+
+  }
+/*
 
 
 
