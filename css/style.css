@@ -62,23 +62,23 @@ h4.ar-stats:before, h5.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h4.smg-stats:before {
+h4.smg-stats:before, h5.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h4.map-info:before {
+h4.map-info:before, h5.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h4.op-info:before {
+h4.op-info:before, h5.op-info:before{
   background-image: url('../images/op-info-01.svg');
 }
 
-h4.op-tips:before {
+h4.op-tips:before, h5.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h4.spawn-peeks:before {
+h4.spawn-peeks:before, h5.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
@@ -91,7 +91,7 @@ h4.spawn-peeks:before {
 
 #footer .contact {
   text-align: right;
-  font-size:50px;
+  font-size:20px;
   font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ div.ex2 {
   padding: 25px;
   background-color: rgb(62, 82, 107);
   border-radius: 100px;
-  width: 200px;
+  width: 300px;
   text-align: center;
   align-items: center;
   }
@@ -116,9 +116,10 @@ div.rcorners2 {
   text-align: center;
   font-weight: 600;
   font-size: 20px;
-font-family: inter;
+  font-family: inter;
   margin: 0;
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .container {
@@ -151,3 +152,17 @@ font-family: inter;
       width: 100%;
     }
 }
+
+/*Map Info Page*/
+
+
+/*Op Info*/
+div.sledge {
+  margin-bottom: 100px;
+  width: 150px;
+  margin-left: 100px;
+}
+
+
+
+
