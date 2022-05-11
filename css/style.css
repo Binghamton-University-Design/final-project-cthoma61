@@ -82,6 +82,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
+
 #footer {
   padding: 50px;
   align-content: space-between;
@@ -181,10 +182,12 @@ div.rcorners2 {
 .op-info-item ul li {
   margin-bottom: 1em;
 }
+p{ 
+        line-height: 2rem; /*or use value in px*/ 
+      }
 
 
-
-/*
+/*Op Ability
 
 
 
