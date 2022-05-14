@@ -183,11 +183,13 @@ div.rcorners2 {
 
 .icon h3
 {
-  padding-bottom: .5em;
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
   .copy {
-    padding-top: 1.5em;
+    padding-top: 67.5px;
       }
 
 .op-info-item ul {
