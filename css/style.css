@@ -40,6 +40,7 @@ div.ex1 {
   background: gray;
 }
 
+
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(62, 82, 107);
@@ -107,13 +108,13 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 div.ex2 {
-  display: block;
-  padding: 25px;
-  background-color: rgb(62, 82, 107);
-  border-radius: 100px;
-  width: 300px;
+  display: flex;
   text-align: center;
   margin: 10px auto auto auto;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
   }
 
 
@@ -161,7 +162,13 @@ div.rcorners2 {
 }
 
 /*Map Info Page*/
+.Note{
+  font-size: 40px;
+}
 
+.maps {
+  font size: 35px;
+}
 
 /*Op Info*/
 
