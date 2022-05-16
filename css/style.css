@@ -120,7 +120,6 @@ div.ex2 {
 
 div.rcorners2 {
   border-radius: 40px;
-  background-color: rgb(62, 82, 107);
   padding: 0;
   text-align: center;
   font-weight: 600;
@@ -130,7 +129,7 @@ div.rcorners2 {
   padding: 2em;
 }
 
-.container {
+#container {
   display: flex;
 }
 
@@ -161,16 +160,22 @@ div.rcorners2 {
     }
 }
 
+.content {
+  padding: px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 80%;
+  display: flex;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
+
+
 
 /*Map Info Page*/
 .Note{
