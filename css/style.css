@@ -53,6 +53,12 @@ div.rcorners1 {
   margin: auto;
 }
 
+div.map-infoinside {
+  margin-top: 3px;
+}
+
+
+
 h4 {
   font-size: 1.5em;
 }
