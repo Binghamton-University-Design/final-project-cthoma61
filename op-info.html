@@ -38,7 +38,7 @@
 			<!-- end masthead -->
 
 			<div class="width-4-12-m width-12-12">
-				<div class="container">
+				<div id="container">
 <div class="navbar-items"><a href="op-info.html"><h5 class="op-info">Op. Info</h5></a></div>
   <div class="navbar-items"><a href="op-tips.html"><h5 class="op-tips">Op. Tips</h5></a></div>
   <div class="navbar-items"><a href="map-info.html"><h5 class="map-info">Map Info</h5></a></div>
@@ -292,6 +292,24 @@
 	      	<a href="contact us.html"><p>Contact Us</p></a>
 	      </div>
     </div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("container");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+    
 
 	</body>
 </html>
