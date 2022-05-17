@@ -102,12 +102,17 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
   margin-top: 50px;
 }
 
+
+#footer .img {
+  padding-left: 15px;
+}
+
 #footer .contact {
   text-align: right;
   font-size:20px;
   font-weight: bold;
   padding-top: 35px;
-  padding-right: 6em;
+  padding-right: 53px;
 }
 
 /*AR Stats Page*/
