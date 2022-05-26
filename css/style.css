@@ -28,12 +28,12 @@ h4 {
 }
 a.ex1 {
   display: block;
-  padding: 25px;
+  padding: 20px 20px 20px 20px;
   background-color: rgb(62, 82, 107);
   border-radius: 100px;
   width: 270px;
   text-align: center;
-  margin: 1em auto 1em auto;
+  margin: 0em auto 1.5em auto;
 }
 
 .ex1:hover {
@@ -41,10 +41,12 @@ a.ex1 {
 }
 
 
+
+
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(62, 82, 107);
-  padding: 8px 5px 5px 5px;
+  padding: 8px 5px 0px 5px;
   text-align: center;
   font-weight: 600;
   font-size: 20;
