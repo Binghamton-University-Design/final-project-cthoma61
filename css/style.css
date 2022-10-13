@@ -22,10 +22,7 @@ h4 {
   font-size: 1.5em;
 }
 
-#wrapper {
-  margin: 0 auto;
-  max-width: 1200px;
-}
+
 a.ex1 {
   display: block;
   padding: 20px 20px 20px 20px;
@@ -33,7 +30,7 @@ a.ex1 {
   border-radius: 100px;
   width: 270px;
   text-align: center;
-  margin: 0em auto 1.5em auto;
+  margin: 1.10em auto .95em auto;
 }
 
 .ex1:hover {
@@ -96,7 +93,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
-
+@media (min-width:  700px) {
 #footer {
   padding: 20px 120px 20px 120px;
   align-content: space-between;
@@ -114,8 +111,43 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
   font-size:20px;
   font-weight: bold;
   padding-top: 35px;
-  padding-right: 53px;
+  padding-right: 70px;
 }
+}
+
+@media (max-width:  700px) {
+#footer {
+  align-content: space-between;
+  background-color: rgb(29, 40, 51);
+  margin-top: 50px;
+}
+
+
+#footer .img {
+  margin-left: 20px;
+  margin-top: 24px;
+}
+
+#footer .contact {
+  text-align: right;
+  font-size:12px;
+  font-weight: bold;
+  margin-right: 47px;
+  margin-bottom: 20px;
+  margin-top:21px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*AR Stats Page*/
 
@@ -140,6 +172,13 @@ div.rcorners2 {
   font-family: inter;
   margin: 10px auto 10px auto;
   padding: 2em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%; 
+  display: flex;
 }
 
 #container {
