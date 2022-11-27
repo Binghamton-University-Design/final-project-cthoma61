@@ -1,5 +1,8 @@
 /*stylesheet*/
-@media screen and (min-width: 1230px) {
+
+
+@media screen and (min-width: 768.1px) and (max-width: 1230px) {
+
 /* vars */
 :root {
   --background-color: rgb(41,55,71);
@@ -21,51 +24,37 @@ body {
   scroll-behavior: smooth;
 }
 
-
 .indexlogo {
-  width: 95%;
-  max-width: 100%;
-  margin: 2rem auto auto auto;
-}
-
+  width: 20rem;
+ margin: 2rem auto auto auto;
+  }
 
 
 .navbar {
   background: rgb(29, 40, 51);
   box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
+  height: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 17px;
   position: sticky;
   top: 0;
-  z-index: 999;
   font-weight: bold;
-  padding: 1.5rem 0;
 }
 
-.navbar__container {
-  display: flex;
-  justify-content: space-around;
-  z-index: 1;
-  width: 100%;
-  
-}
+
 
 #navbar__logo {
-align-items: center;
-  justify-content: center;
-  margin: auto 0;
-  width: 10rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-
+width: 10rem;
+margin: auto 0;
+margin-left: 2rem;
 }
 
 #navbar__logo img {
-  
   width: 100%;
-  }
+
+}
 
 
 .navbar__menu {
@@ -75,28 +64,6 @@ align-items: center;
 }
 
 
-
-
-
-
-
-.navbar__item {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-margin-right: 1vw;
-  padding: .5rem .8rem .5rem .4rem;
-}
-
-
-
-
-
-.navbar__item img {
- width: 2.8rem;
- margin-right: -3px;
-}
 
 
 
@@ -112,10 +79,145 @@ margin-right: 1vw;
 }
 
 
-.navbar__item:hover {
-  background: rgb(62, 82, 107);
-  border-radius: 18px;
 
+
+
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+   background: rgb(29, 40, 51);
+  }
+
+  .navbar__menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all 0.1s ease;
+    z-index: -1000;
+    padding-right: 7rem;
+    border-radius: 0px 0px 50px 0px;
+  }
+
+  .navbar__menu.active {
+    background: rgb(29, 40, 51);
+    top: 100%;
+    opacity: 1;
+    transition: all 0.1s ease;
+    font-size: 1.6rem;
+    padding-bottom: 30px;
+    box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
+  }
+
+
+
+
+.navbar__toggle {
+
+  margin-top: .99rem;
+ margin-right: 2rem; 
+}
+
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.1s ease-in-out;
+    background: #fff;
+  }
+
+ 
+
+  .navbar__item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: .6rem 0;
+  width: 230px;
+  transition: all 0.1s ease;
+  background: rgb(62, 82, 107);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius:  0px 50px 50px 0px;
+  font-size: 20px;
+}
+
+.navbar__item:hover {
+  background: rgb(83, 110, 143);
+  transition: all 0.1s ease;
+}
+
+
+.navbar__item img {
+ width: 20%;
+ margin-right: 5px;
+ margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+/*Mobile Nav End*/
+
+
+
+
+
+
+/* Hero Section */
+
+
+/*stylesheet*/
+
+/* vars */
+:root {
+  --background-color: rgb(41,55,71);
+  --body-color: #fff;
+}
+body {
+  margin: 0;
+  font-family: inter;
+  color:  var(--body-color);
+  background: var(--background-color);
 }
 
 
@@ -133,7 +235,93 @@ margin-right: 1vw;
 
 
 
-/*Index*/
+
+
+
+
+/*AR Stats Page*/
+
+
+
+
+
+div.ex2 {
+  display: flex;
+  text-align: center;
+  margin: 50px auto auto auto;
+  font-size: 2.6rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  }
+
+
+div.rcorners2 {
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: inter;
+  margin: 10px auto 10px auto;
+  padding: 2em;
+}
+
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%; 
+  display: flex;
+}
+
+.ar-imagerank {
+  margin-top: 1.5rem;
+
+
+
+}
+
+
+
+
+
+
+
+.arimagelist {
+padding: 1.5rem;
+border-radius: 1rem;
+background-color: rgb(29, 40, 51);
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin-right: 1.4rem;
+margin-left: 1.4rem;
+}
+
+.arimagetop p {
+font-size: 1.2rem;
+font-weight: bold;
+text-align: center;
+}
+
+.arimagetop img{
+max-width: 100%;
+width: 50%;
+margin: 2rem auto 0 auto;
+align-items: center;
+display: flex;
+background-color: rgb(29, 40, 51);
+padding: 1.5rem;
+border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 h4 {
   font-size: 1.5em;
@@ -154,7 +342,6 @@ a.ex1 {
 
 .ex1:hover {
   background-color: rgb(62, 82, 107);
-  
 }
 
 
@@ -162,52 +349,49 @@ a.ex1 {
 
 
 
+/*AR Stats Page*/
 
 
 
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1.3rem 1rem 1rem 1rem;
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 18rem;  
+  width: 80%;
   margin: auto;
-  height: 26rem;
+  height: 33rem;
 }
+
 
 @-moz-document url-prefix() {
+
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1.3rem 1rem 1rem 1rem;
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 18rem;  
+  width: 80%;
   margin: auto;
-  height: 26rem;
+  height: 32rem;
 }
-
 }
 
 
 
 div.rcorners1 h6 {
   font-weight: bold;
-font-size: 1.15rem;
+  font-size: 1.18rem;
 }
 
 
-div.up1 {
-  margin-top: -16px;
-}
 
 
-div.up2 {
-  margin-top: -16px;
-}
+
 
 
 
@@ -248,6 +432,12 @@ div.indexguns p {
 div.indexguns img {
 width: 70%;
 }
+
+
+
+
+
+
 
 
 
@@ -303,161 +493,26 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*AR Stats Page*/
-
-
-div.ex2 {
-  display: flex;
-  text-align: center;
-  margin: 50px auto auto auto;
-  font-size: 3rem;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  }
-
-
-div.rcorners2 {
-  border-radius: 40px;
-  padding: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: inter;
-  margin: 10px auto 10px auto;
-  padding: 2em;
-}
-
-#wrapper{
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%; 
-  display: flex;
-}
-
-
-div.rcorners2 {
-  padding: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: inter;
-  margin: 10px auto 10px auto;
-  padding: 2em;
-}
-
-
-#wrapper{
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%; 
-  display: flex;
-}
-
-.ar-imagerank {
-  margin-top: 1.5rem;
-
-
-
-}
-
-
-
-
-
-
-
-.arimagelist {
-padding: 2.5rem;
-border-radius: 2rem;
-background-color: rgb(29, 40, 51);
-margin-top: 2rem;
-margin-bottom: 4rem;
-margin-right: 3rem;
-margin-left: 3rem;
-}
-
-.arimagetop p {
-font-size: 2rem;
-font-weight: bold;
-text-align: center;
-}
-
-.arimagetop img{
-max-width: 100%;
-width: 26%;
-margin: 2rem auto 2rem auto;
-align-items: center;
-display: flex;
-background-color: rgb(29, 40, 51);
-padding: 2rem;
-border-radius: 2rem;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-h4 {
-  font-size: 1.5em;
-}
-
-
-
-
-
-
-/*AR Stats Page*/
-
-
-
-
-
 /*Map Info Page*/
+
+
+/*Top Note*/
+
 .Note{
   text-align: right;
-  font-size:2rem;
+  font-size:2.6rem;
   font-weight: bold;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: flex;
 }
-/*
-div.ex2 {
-  display: flex;
-  text-align: center;
-  margin: 50px auto auto auto;
-  font-size: 8vw;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  } */
+
 
 .Note img {
-  width: 3%;
+  width: 7%;
   float: left;
-  margin-right: .6rem;
+  margin-right: 1.7vw;
 }
 
 
@@ -467,41 +522,29 @@ font-weight: bold;
 }
 
 
+
+/*Top Note*/
+
 .maps {
   font size: 35px;
 }
 
 
-/*Spawn*/
-
 .mapbodytop p {
-font-size: 2.5rem;
-margin: 4rem auto 1.7rem auto;
+font-size: 1rem;
+margin: 3rem auto 1.7rem auto;
 }
 
 
 .mapbody p {
-font-size: 2.5rem;
+font-size: 1rem;
 margin: 4rem auto 1.7rem auto;
 }
 
 .spawnbody p {
-font-size: 2.5rem;
+font-size: 1rem;
 margin: 4.5rem auto 1.7rem auto;
 }
-
-div.rcorners4 {
-  
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: inter;
-  margin: 40px auto 15px auto;
-}
-
-
-
-
 
 
 
@@ -521,17 +564,20 @@ div.rcorners4 {
 
 .op-info-finalitem
 {
-  text-align: left;
-  margin-bottom: 6em; 
+  text-align: left; 
 }
-
 
 
 .icon
 {
   text-align: center;
 }
+.icon img
+{
+  display: inline-block;
+  width: 20%;
 
+  }
 
 .icon h3
 {
@@ -540,10 +586,10 @@ div.rcorners4 {
   font-size: 30px;
 }
 
-.icon img {
-  display: inline-block;
-  width: 40%;
-  }
+  .copy {
+    padding-top: 40px;
+      }
+
 
 .icongif
 {
@@ -560,7 +606,7 @@ div.rcorners4 {
 
 .icongif img {
   display: inline-block;
-  width: 90%;
+  width: 100%;
   }
 
 
@@ -571,9 +617,11 @@ div.rcorners4 {
 
 
 
-  .copy {
-    padding-top:4.6rem;
-      }
+
+
+
+
+
 
 .op-info-item ul {
   list-style-type: disc;
@@ -585,13 +633,31 @@ div.rcorners4 {
 
 
 
-/*Op Ability/*
 
-/*Contact Us*/
+.mapbodytop p {
+font-size: 2.1875rem;
+margin: 3rem auto 1.7rem auto;
+}
+
+.mapbody p {
+font-size: 2.1875rem;
+margin: 4rem auto 1.7rem auto;
+}
+
+.spawnbody p {
+font-size: 2.1875rem;
+margin: 4rem auto 1.7rem auto;
+}
 
 
-
-
+div.rcorners4 {
+  
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: inter;
+  margin: 40px auto 15px auto;
+}
 
 #footer {
   align-content: space-between;

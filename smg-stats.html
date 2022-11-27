@@ -3,6 +3,7 @@
 		
 
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<!-- scripts -->
 		<script src="js/main.js"></script>
@@ -10,6 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
+		<link rel="stylesheet" type="text/css" href="css/tabletstyle.css">
 		<!-- SEO -->
 		<meta name="description" content="Rainbow Six Siege">
 		<meta name="author" content="Christian">
@@ -23,64 +26,97 @@
 
 	<body>
 
-		<div id="wrapper" class="masthead">
-		<div class="grid" id="main">
-			
-			<!-- masthead -->
-			<div class="width-6-12-m width-3-12">
-				<a href="index.html"><img src="images/top website4-01.png" alt="Rainbow Six Siege Gaming Guide">
-			</div></a>
-			<div class="width-1-12-m width-6-12"></div>
-			<div class="width-5-12-m width-3-12">
-			<a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#gid=0"><img src="images/top website5-02.png" alt="Rogue 9"></a>
+<div class="arcontainer">
+
+<!-- Nav -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"><img src="images/navlogo.svg"/>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <a href="op-info.html">
+          	<li class="navbar__item">
+            <img src="images/op-info-01.svg"><p>Op. Info</p>
+          </li></a>
+          <a href="op-tips.html">
+          <li class="navbar__item">
+            <img src="images/light-bulb-01.svg"><p>Op. Tips</p>
+          </li></a>
+          <a href="map-info.html">
+          <li class="navbar__item">
+            <img src="images/map2-01.svg"><p>Map Info</p>
+          </li></a>
+          <a href="ar-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv5-01.svg"><p>AR Stats</p>
+          </li>
+        </a>
+          <a href="smg-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv6-01-01.svg"><p>SMG Stats</p>
+          </li>
+        </a>
+        <a href="spawn-peeks.html">
+          <li class="navbar__item">
+            <img src="images/spawnv3-01.svg"><p>Spawn Peeks</p>
+          </li>
+          </a>
+          
+        </ul>
+      </div>
+    </nav>
+<!--Nav end-->
+<!--Body-->
+	<div class="width-12-12-m width-12-12">
+				<div class="ex2"><h4 class="smg-stats">SMG Stats</h4></div>
+
 			</div>
-			<!-- end masthead -->
-		</div>
 			
-		</div>
-
-	<div id="container">
-		<div id="wrapper">
-			<div style="width: 100%; display: flex;">
-  <a href="op-info.html"class="navbar-items"><h5 class="op-info">Op. Info</h5></a>
-  <a href="op-tips.html"class="navbar-items"><h5 class="op-tips">Op. Tips</h5></a>
-	<a href="map-info.html"class="navbar-items"><h5 class="map-info">Map Info</h5></a>
-	<a href="ar-stats.html"class="navbar-items"><h5 class="ar-stats">AR Stats</h5></a>
-  <a href="smg-stats.html"class="navbar-items"><h5 class="smg-stats">SMG Stats</h5></a>
-  <a href="spawn-peeks.html"class="navbar-items"><h5 class="spawn-peeks">Spawn Peeks</h5></a>
-</div>
-</div>
-</div>
-
-			<div class="width-4-12-m width-12-12">
-
-			<div class="ex2"><h4 class="smg-stats"> SMG Stats </h4></div>
-
-		</div>
-
-			<div class="width-4-12-m width-12-12">
-				<div class="rcorners2">
-					<p>Note - Weapons ranked best to worst for level 2 armor</p>
-					<img src="images/smg stats2-01.png">
+			<div class="width-12-12-m width-12-12">
+				<div class="ar-imagerank">
+					<div class="arimagetop">
+					<p>Ordered Best to Worst for:<br>Level 2 Armor</p>
+					<img src="images/guninformation.svg">
+					</div>
+					<div class="arimagelist">
+					<img src="images/smgstats.svg">
+				</div>
+			</div>
 										
 					</div>
 			</div>
 
-		</div>
+<!--Body end-->
 
-	</div>
-		
-			<div id="footer" class="grid">
-	      <div class="width-6-12-m width-6-12 img">
-	      	<img src="images/footer3-01.svg">
+<!--Footer-->
+
+<div id="footer" class="grid">
+	      <div class="width-2-12-m width-2-12 ftcontent">
+	      	</div>
+	      	
+	      <div class="width-8-12-m width-8-12 ftcontent">
+	      <a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#">
+	      <img src="images/rogue9.png">
+	  </a>
+	      <a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#"><p>Stats by Rogue-9</p></a>	
 	      </div>
-	      <div class="width-6-12-m width-6-12 contact">
-	      	<a href="contact us.html"><p>Contact Us</p></a>
+	      <div class="width-2-12-m width-2-12 ftcontent">
 	      </div>
-    </div>
+	      	
+	      
+
+</div>
+    <!--Footer end-->
+</div>
 
 
-   <script>
+</div>
+
+<script>
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("container");
@@ -94,6 +130,9 @@ function myFunction() {
   }
 }
 </script>
+
+
+
 
 	</body>
 </html>

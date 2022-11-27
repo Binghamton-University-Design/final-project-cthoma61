@@ -3,13 +3,15 @@
 		
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<!-- scripts -->
 		<script src="js/main.js"></script>
 	     <!-- styles -->
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
+		<link rel="stylesheet" type="text/css" href="css/tabletstyle.css">
 		<!-- SEO -->
 		<meta name="description" content="Rainbow Six Siege">
 		<meta name="author" content="Christian">
@@ -18,96 +20,120 @@
 		<!--  Bookmark Icon-->
 		<link rel="icon" type="image/png" href="images/Ch.png">
 		<!-- load google fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="https//fonts.googleapis.com/css2?family=Interwght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 	</head>
 	<body>
 
-		<div id="wrapper" class="masthead">
-		<div class="grid" id="main">
-			
-			<!-- masthead -->
-			<div class="width-6-12-m width-3-12">
-				<a href="index.html"><img src="images/top website4-01.png" alt="Rainbow Six Siege Gaming Guide">
-			</div></a>
-			<div class="width-1-12-m width-6-12"></div>
-			<div class="width-5-12-m width-3-12">
-			<a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#gid=0"><img src="images/top website5-02.png" alt="Rogue 9"></a>
-			</div>
-			<!-- end masthead -->
-		</div>
-			
-		</div>
+		<!-- Nav -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"><img src="images/navlogo.svg"/>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <a href="op-info.html">
+          	<li class="navbar__item">
+            <img src="images/op-info-01.svg"><p>Op. Info</p>
+          </li></a>
+          <a href="op-tips.html">
+          <li class="navbar__item">
+            <img src="images/light-bulb-01.svg"><p>Op. Tips</p>
+          </li></a>
+          <a href="map-info.html">
+          <li class="navbar__item">
+            <img src="images/map2-01.svg"><p>Map Info</p>
+          </li></a>
+          <a href="ar-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv5-01.svg"><p>AR Stats</p>
+          </li>
+        </a>
+          <a href="smg-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv6-01-01.svg"><p>SMG Stats</p>
+          </li>
+        </a>
+        <a href="spawn-peeks.html">
+          <li class="navbar__item">
+            <img src="images/spawnv3-01.svg"><p>Spawn Peeks</p>
+          </li>
+          </a>
+          
+        </ul>
+      </div>
+    </nav>
 
-	<div id="container">
-		<div id="wrapper">
-			<div style="width: 100%; display: flex;">
-  <a href="op-info.html"class="navbar-items"><h5 class="op-info">Op. Info</h5></a>
-  <a href="op-tips.html"class="navbar-items"><h5 class="op-tips">Op. Tips</h5></a>
-	<a href="map-info.html"class="navbar-items"><h5 class="map-info">Map Info</h5></a>
-	<a href="ar-stats.html"class="navbar-items"><h5 class="ar-stats">AR Stats</h5></a>
-  <a href="smg-stats.html"class="navbar-items"><h5 class="smg-stats">SMG Stats</h5></a>
-  <a href="spawn-peeks.html"class="navbar-items"><h5 class="spawn-peeks">Spawn Peeks</h5></a>
-</div>
-</div>
-</div>
-</div>
+<!--Nav end-->
 
 			<div class="width-4-12-m width-12-12">
 			<div class="ex2"><h4 class="spawn-peeks">Spawn Peeks</h4></div>
 			</div>
 			<div class="width-4-12-m width-12-12">
-				<div class="rcorners2">
-					<p style="line-height: 300%; font-size: 35px;">Bank:</p>
+				<div class="rcorners4">
+					<div class="spawnbody">
+					<p>Bank</p>
 					<img src="images/bank3.gif">
-					<p style="line-height: 300%; font-size: 35px;">Border:</p>
+					<p>Border</p>
 					<img src="images/border.gif">					
-					<p style="line-height: 300%; font-size: 35px;">Chalet:</p>
+					<p>Chalet</p>
 					<img src="images/chalet.gif">
-					<p style="line-height: 300%; font-size: 35px;">Club House:</p>
+					<p>Club House</p>
 					<img src="images/clubhouse.gif">
-					<p style="line-height: 300%; font-size: 35px;">Coastline:</p>
+					<p>Coastline</p>
 					<img src="images/coastline.gif">
-					<p style="line-height: 300%; font-size: 35px;">Favela:</p>
+					<p>Favela</p>
 					<img src="images/favela6.gif">
-					<p style="line-height: 300%; font-size: 35px;">Fortress:</p>
-					<img src="http://drive.google.com/uc?export=view&id=15zx56Q-Kut40vIY48eMovIzNQmZXojWB">
-					<p style="line-height: 300%; font-size: 35px;">Hereford Base:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1Dj7KYvhvm-R5P_YhjzwfkEgGsh767_dS">
-					<p style="line-height: 300%; font-size: 35px;">House:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1XV0LISnQd0yWy2RvF6b0-GPJRd_ZBuLM">
-					<p style="line-height: 300%; font-size: 35px;">Kafe Dostoyevski:</p>
-					<img src="http://drive.google.com/uc?export=view&id=14i5t3AE5h6SahsvK63TeietJcQBiFs2I">
-					<p style="line-height: 300%; font-size: 35px;">Kanal:</p>
-					<img src="http://drive.google.com/uc?export=view&id=13mH5e1dlZ9RRDJhFIa6o6-X5dNPpLLFD">
-					<p style="line-height: 300%; font-size: 35px;">Oregon:</p>
-					<img src="http://drive.google.com/uc?export=view&id=15K-sHcGXiuKZjiU2QxAjfoyOXuSjPBe6">
-					<p style="line-height: 300%; font-size: 35px;">Outback:</p>
-				 	<img src="http://drive.google.com/uc?export=view&id=1fdksoSDzHj2Rw1iSVN75gUhsrPMVD8nj">
-					<p style="line-height: 300%; font-size: 35px;">Presidential Plane:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1kQGJkgNhXwLywsUc-4bdhMJk2R1q1lDy">
-					<p style="line-height: 300%; font-size: 35px;">Skyscraper:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1R3KdmwKmbGG8l0J2pavltPA3WI7a0c2U">
-					<p style="line-height: 300%; font-size: 35px;">Theme Park:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1fLE8B5_8f-rALRczFXvbl3aqSnGQieU2">
-					<p style="line-height: 300%; font-size: 35px;">Tower:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1sSMOjWle0TbDaZIYOwoTSEZAzV5hdVIp">
-					<p style="line-height: 300%; font-size: 35px;">Villa:</p>
-					<img src="http://drive.google.com/uc?export=view&id=12HS1eFKh9yeV4qMG-IDSKjOm0_WDhxqa">
-					<p style="line-height: 300%; font-size: 35px;">Yacht:</p>
-					<img src="http://drive.google.com/uc?export=view&id=1fN1Vz5m_YaeIbY4rFmGE8LJ60vX1R89K">
+					<p>Fortress</p>
+					<img src="http//drive.google.com/uc?export=view&id=15zx56Q-Kut40vIY48eMovIzNQmZXojWB">
+					<p>Hereford Base</p>
+					<img src="http//drive.google.com/uc?export=view&id=1Dj7KYvhvm-R5P_YhjzwfkEgGsh767_dS">
+					<p>House</p>
+					<img src="http//drive.google.com/uc?export=view&id=1XV0LISnQd0yWy2RvF6b0-GPJRd_ZBuLM">
+					<p>Dostoyevski</p>
+					<img src="http//drive.google.com/uc?export=view&id=14i5t3AE5h6SahsvK63TeietJcQBiFs2I">
+					<p>Kanal</p>
+					<img src="http//drive.google.com/uc?export=view&id=13mH5e1dlZ9RRDJhFIa6o6-X5dNPpLLFD">
+					<p>Oregon</p>
+					<img src="http//drive.google.com/uc?export=view&id=15K-sHcGXiuKZjiU2QxAjfoyOXuSjPBe6">
+					<p>Outback</p>
+				 	<img src="http//drive.google.com/uc?export=view&id=1fdksoSDzHj2Rw1iSVN75gUhsrPMVD8nj">
+					<p>Plane</p>
+					<img src="http//drive.google.com/uc?export=view&id=1kQGJkgNhXwLywsUc-4bdhMJk2R1q1lDy">
+					<p>Skyscraper</p>
+					<img src="http//drive.google.com/uc?export=view&id=1R3KdmwKmbGG8l0J2pavltPA3WI7a0c2U">
+					<p>Theme Park</p>
+					<img src="http//drive.google.com/uc?export=view&id=1fLE8B5_8f-rALRczFXvbl3aqSnGQieU2">
+					<p>Tower</p>
+					<img src="http//drive.google.com/uc?export=view&id=1sSMOjWle0TbDaZIYOwoTSEZAzV5hdVIp">
+					<p>Villa</p>
+					<img src="http//drive.google.com/uc?export=view&id=12HS1eFKh9yeV4qMG-IDSKjOm0_WDhxqa">
+					<p>Yacht</p>
+					<img src="http//drive.google.com/uc?export=view&id=1fN1Vz5m_YaeIbY4rFmGE8LJ60vX1R89K">
 					</div>
 			</div>
+		</div>
 
 		</div>
 	</div>
-			<div id="footer" class="grid">
-	      <div class="width-6-12-m width-6-12 img">
-	      	<img src="images/footer3-01.svg">
+<div id="footer" class="grid">
+	      <div class="width-2-12-m width-2-12 img">
+	      	<img src="images/rogue9.png">
 	      </div>
+	      <div class="width-4-12-m width-4-12 img">
+	      <a href="https//docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#"><p>Stats by Rogue-9</p></a>	
+	      </div>
+	      
 	      <div class="width-6-12-m width-6-12 contact">
 	      	<a href="contact us.html"><p>Contact Us</p></a>
 	      </div>
     </div>
+
+</div>
+
+
 <script>
 window.onscroll = function() {myFunction()};
 

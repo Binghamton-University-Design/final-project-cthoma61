@@ -2,13 +2,15 @@
 <head>
 		
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<!-- scripts -->
 		<script src="js/main.js"></script>
 	     <!-- styles -->
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
+		<link rel="stylesheet" type="text/css" href="css/tabletstyle.css">
 		<!-- SEO -->
 		<meta name="description" content="Rainbow Six Siege">
 		<meta name="author" content="Christian">
@@ -17,39 +19,54 @@
 		<!--  Bookmark Icon-->
 		<link rel="icon" type="image/png" href="images/Ch.png">
 		<!-- load google fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link href="https//fonts.googleapis.com/css2?family=Interwght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 	</head>
 
 		<body>
 
-		<div id="wrapper" class="masthead">
-		<div class="grid" id="main">
-			
-			<!-- masthead -->
-			<div class="width-6-12-m width-3-12">
-				<a href="index.html"><img src="images/top website4-01.png" alt="Rainbow Six Siege Gaming Guide">
-			</div></a>
-			<div class="width-1-12-m width-6-12"></div>
-			<div class="width-5-12-m width-3-12">
-			<a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#gid=0"><img src="images/top website5-02.png" alt="Rogue 9"></a>
-			</div>
-			<!-- end masthead -->
-		</div>
-			
-		</div>
+		<!-- Nav -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"><img src="images/navlogo.svg"/>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <a href="op-info.html">
+          	<li class="navbar__item">
+            <img src="images/op-info-01.svg"><p>Op. Info</p>
+          </li></a>
+          <a href="op-tips.html">
+          <li class="navbar__item">
+            <img src="images/light-bulb-01.svg"><p>Op. Tips</p>
+          </li></a>
+          <a href="map-info.html">
+          <li class="navbar__item">
+            <img src="images/map2-01.svg"><p>Map Info</p>
+          </li></a>
+          <a href="ar-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv5-01.svg"><p>AR Stats</p>
+          </li>
+        </a>
+          <a href="smg-stats.html">
+          <li class="navbar__item">
+            <img src="images/gunv6-01-01.svg"><p>SMG Stats</p>
+          </li>
+        </a>
+        <a href="spawn-peeks.html">
+          <li class="navbar__item">
+          <img src="images/spawnv3-01.svg"><p>Spawn Peeks</p>
+          </li>
+          </a>
+          
+        </ul>
+      </div>
+    </nav>
 
-	<div id="container">
-		<div id="wrapper">
-			<div style="width: 100%; display: flex;">
-  <a href="op-info.html"class="navbar-items"><h5 class="op-info">Op. Info</h5></a>
-  <a href="op-tips.html"class="navbar-items"><h5 class="op-tips">Op. Tips</h5></a>
-	<a href="map-info.html"class="navbar-items"><h5 class="map-info">Map Info</h5></a>
-	<a href="ar-stats.html"class="navbar-items"><h5 class="ar-stats">AR Stats</h5></a>
-  <a href="smg-stats.html"class="navbar-items"><h5 class="smg-stats">SMG Stats</h5></a>
-  <a href="spawn-peeks.html"class="navbar-items"><h5 class="spawn-peeks">Spawn Peeks</h5></a></div>
-</div>
-</div>
-</div>
+<!--Nav end-->
 
 			<div class="width-4-12-m width-12-12">
 				<div class="ex2"><h4 class="map-info">Map Info</h4></div>
@@ -60,59 +77,73 @@
 			<div class="width-4-12-m width-12-12">
 				<div class="rcorners2">
 					<div class="Note">
-					<p>Note - Red circles are camera spots.</p>
-				</div>
-					<p style="line-height: 300%; font-size: 35px;">Bank:</p>
+					<img src="images/circle.png"><p>= Camera Spot</p>
+				  </div>
+				  <div class="mapbodytop">
+					<p>Bank</p>
 					<img src="images/bank1.png">
-					<p style="line-height: 300%; font-size: 35px;">Border:</p>
+				</div>
+					<div class="mapbody">
+					<p>Border</p>
 					<img src="images/border1.png">
-					<p style="line-height: 300%; font-size: 35px;">Chalet:</p>
+					<p>Chalet</p>
 					<img src="images/chalet1.png">
-					<p style="line-height: 300%; font-size: 35px;">Club House:</p>
+					<p>Club House</p>
 					<img src="images/clubhouse1.png">
-					<p style="line-height: 300%; font-size: 35px;">Coastline:</p>
+					<p>Coastline</p>
 					<img src="images/Coastline1.png">
-					<p style="line-height: 300%; font-size: 35px;">Favela:</p>
+					<p>Favela</p>
 					<img src="images/favela1.png">
-					<p style="line-height: 300%; font-size: 35px;">Fortress:</p>
+					<p>Fortress</p>
 					<img src="images/fortress1.png">
-					<p style="line-height: 300%; font-size: 35px;">Hereford Base:</p>
+					<p>Hereford Base</p>
 					<img src="images/hereford1.png">
-					<p style="line-height: 300%; font-size: 35px;">House:</p>
+					<p>House</p>
 					<img src="images/hous1.png">
-					<p style="line-height: 300%; font-size: 35px;">Kafe Dostoyevski:</p>
+					<p>Dostoyevski</p>
 					<img src="images/kafe1.png">
-					<p style="line-height: 300%; font-size: 35px;">Kanal:</p>
+					<p>Kanal</p>
 					<img src="images/kanal1.png">
-					<p style="line-height: 300%; font-size: 35px;">Oregon:</p>
+					<p>Oregon</p>
 					<img src="images/oregon1.png">
-					<p style="line-height: 300%; font-size: 35px;">Outback:</p>
+					<p>Outback</p>
 					<img src="images/outback1.png">
-					<p style="line-height: 300%; font-size: 35px;">Presidential Plane:</p>
+					<p>Plane</p>
 					<img src="images/plane1.png">
-					<p style="line-height: 300%; font-size: 35px;">Skyscraper:</p>
+					<p>Skyscraper</p>
 					<img src="images/skyscraper.png">
-					<p style="line-height: 300%; font-size: 35px;">Theme Park:</p>
+					<p>Theme Park</p>
 					<img src="images/theme1.png">
-					<p style="line-height: 300%; font-size: 35px;">Tower:</p>
+					<p>Tower</p>
 					<img src="images/tower1.png">
-					<p style="line-height: 300%; font-size: 35px;">Villa:</p>
+					<p>Villa</p>
 					<img src="images/villa1.png">
-					<p style="line-height: 300%; font-size: 35px;">Yacht:</p>
+					<p>Yacht</p>
 					<img src="images/yacht1.png">				
 					</div>
-			</div>
+					</div>
+					</div>
+					</div>
+<div id="footer" class="grid">
+	      <div class="width-2-12-m width-2-12 ftcontent">
+	      	</div>
+	      	
+	      <div class="width-8-12-m width-8-12 ftcontent">
+	      <a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#">
+	      <img src="images/rogue9.png">
+	  </a>
+	      <a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#"><p>Stats by Rogue-9</p></a>	
+	      </div>
+	      <div class="width-2-12-m width-2-12 ftcontent">
+	      </div>
+	      	
+	      
 
-		</div>
-	</div>
-			<div id="footer" class="grid">
-	      <div class="width-6-12-m width-6-12 img">
-	      	<img src="images/footer3-01.svg">
-	      </div>
-	      <div class="width-6-12-m width-6-12 contact">
-	      	<a href="contact us.html"><p>Contact Us</p></a>
-	      </div>
-    </div>
+</div>
+
+</div>
+
+
 
 <script>
 window.onscroll = function() {myFunction()};
