@@ -23,7 +23,7 @@ body {
 
 
 .indexlogo {
-  width: 95%;
+  width: 20rem;
   max-width: 100%;
   margin: 2rem auto auto auto;
 }
@@ -112,15 +112,18 @@ margin-right: 1vw;
 }
 
 
-.navbar__item:hover {
+.navbar__item:hover
+{
   background: rgb(62, 82, 107);
   border-radius: 18px;
-
 }
 
 
-
-
+.currentpagenav
+{
+  background: rgb(62, 82, 107);
+  border-radius: 18px;
+}
 
 
 
@@ -160,38 +163,17 @@ a.ex1 {
 
 
 
-
-
-
-
-
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
   width: 18rem;  
   margin: auto;
-  height: 26rem;
-}
-
-@-moz-document url-prefix() {
-div.rcorners1 {
-  border-radius: 40px;
-  background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 2rem 1rem;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
-  width: 18rem;  
-  margin: auto;
-  height: 26rem;
-}
 
 }
-
 
 
 div.rcorners1 h6 {
@@ -199,14 +181,36 @@ div.rcorners1 h6 {
 font-size: 1.15rem;
 }
 
+div.rcorners1ar {
+  border-radius: 40px;
+  background-color: rgb(29, 40, 51);
+  padding: 1.25rem 1rem 2.2rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 18rem;  
+  margin: auto;
+}
+
+
+
+
+
+
+div.rcorners1ar h6 {
+  font-weight: bold;
+font-size: 1.15rem;
+}
+
+
 
 div.up1 {
-  margin-top: -16px;
+  margin-top: 3rem;
 }
 
 
 div.up2 {
-  margin-top: -16px;
+  margin-top: 3rem;
 }
 
 
@@ -323,7 +327,7 @@ div.ex2 {
   display: flex;
   text-align: center;
   margin: 50px auto auto auto;
-  font-size: 3rem;
+  font-size: 3.2rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
@@ -337,7 +341,7 @@ div.rcorners2 {
   font-weight: 600;
   font-size: 20px;
   font-family: inter;
-  margin: 10px auto 10px auto;
+  margin: 2rem auto 2rem auto;
   padding: 2em;
 }
 
@@ -367,12 +371,6 @@ div.rcorners2 {
   display: flex;
 }
 
-.ar-imagerank {
-  margin-top: 1.5rem;
-
-
-
-}
 
 
 
@@ -385,7 +383,7 @@ padding: 2.5rem;
 border-radius: 2rem;
 background-color: rgb(29, 40, 51);
 margin-top: 2rem;
-margin-bottom: 4rem;
+margin-bottom: 2rem;
 margin-right: 3rem;
 margin-left: 3rem;
 }
@@ -394,6 +392,7 @@ margin-left: 3rem;
 font-size: 2rem;
 font-weight: bold;
 text-align: center;
+margin: 2.85rem 0rem 4rem 0rem;
 }
 
 .arimagetop img{
@@ -436,23 +435,14 @@ h4 {
 /*Map Info Page*/
 .Note{
   text-align: right;
-  font-size:2rem;
+  font-size:2.6rem;
   font-weight: bold;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: flex;
 }
-/*
-div.ex2 {
-  display: flex;
-  text-align: center;
-  margin: 50px auto auto auto;
-  font-size: 8vw;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  } */
+
 
 .Note img {
   width: 3%;
@@ -463,6 +453,7 @@ div.ex2 {
 
 
 .Note p {
+margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
 }
 
@@ -575,12 +566,25 @@ div.rcorners4 {
     padding-top:4.6rem;
       }
 
-.op-info-item ul {
-  list-style-type: disc;
+
+.copy p {
+  max-width: 60ch;
+  line-height: 160%;
+  word-wrap: break-word;
 }
 
+.copy ul {
+  max-width: 60ch;
+  line-height: 160%;
+  list-style-type: disc;
+  word-wrap: break-word;
+}
+
+
+
+
 .op-info-item ul li {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 

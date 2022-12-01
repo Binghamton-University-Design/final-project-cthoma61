@@ -2,6 +2,8 @@
 <head>
 		
 
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<!-- scripts -->
 		<script src="js/main.js"></script>
@@ -11,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
 		<link rel="stylesheet" type="text/css" href="css/tabletstyle.css">
+		<link rel="stylesheet" type="text/css" href="css/horizontalmobile.css">
 		<!-- SEO -->
 		<meta name="description" content="Rainbow Six Siege">
 		<meta name="author" content="Christian">
@@ -25,7 +28,7 @@
 		<body>
 
 		<!-- Nav -->
-    <nav class="navbar">
+     <nav class="navbar">
       <div class="navbar__container">
         <a href="index.html" id="navbar__logo"><img src="images/navlogo.svg"/>
         </a>
@@ -43,7 +46,7 @@
             <img src="images/light-bulb-01.svg"><p>Op. Tips</p>
           </li></a>
           <a href="map-info.html">
-          <li class="navbar__item">
+          <li class="navbar__item currentpagenav">
             <img src="images/map2-01.svg"><p>Map Info</p>
           </li></a>
           <a href="ar-stats.html">
@@ -58,7 +61,7 @@
         </a>
         <a href="spawn-peeks.html">
           <li class="navbar__item">
-          <img src="images/spawnv3-01.svg"><p>Spawn Peeks</p>
+            <img src="images/spawnv3-01.svg"><p>Spawn Peeks</p>
           </li>
           </a>
           
@@ -66,11 +69,11 @@
       </div>
     </nav>
 
+
 <!--Nav end-->
 
-			<div class="width-4-12-m width-12-12">
+			<div class="width-12-12-m width-12-12">
 				<div class="ex2"><h4 class="map-info">Map Info</h4></div>
-
 			</div>
 			
 
@@ -82,7 +85,7 @@
 				  <div class="mapbodytop">
 					<p>Bank</p>
 					<img src="images/bank1.png">
-				</div>
+				  </div>
 					<div class="mapbody">
 					<p>Border</p>
 					<img src="images/border1.png">
@@ -127,7 +130,6 @@
 <div id="footer" class="grid">
 	      <div class="width-2-12-m width-2-12 ftcontent">
 	      	</div>
-	      	
 	      <div class="width-8-12-m width-8-12 ftcontent">
 	      <a href="https://docs.google.com/spreadsheets/d/1QF72f4Bm7PfbWeSWbl8R8uL0mOzXpG_1vOjqEjXcFGk/edit#">
 	      <img src="images/rogue9.png">
@@ -146,6 +148,7 @@
 
 
 <script>
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("container");
@@ -159,6 +162,8 @@ function myFunction() {
   }
 }
 </script>
+
+
 
 	</body>
 </html>

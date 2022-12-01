@@ -14,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
 		<link rel="stylesheet" type="text/css" href="css/tabletstyle.css">
+		<link rel="stylesheet" type="text/css" href="css/horizontalmobile.css">
 		<!-- SEO -->
 		<meta name="description" content="Rainbow Six Siege">
 		<meta name="author" content="Christian">
@@ -85,7 +86,7 @@
 		<div class="width-12-12-m width-4-12">
 		<div class="up2">
 		<a href="ar-stats.html"class="ex1"><h4 class="ar-stats">AR Stats</h4></a>
-		<div class="rcorners1"><h6>Top 3 ARs</h6>
+		<div class="rcorners1ar"><h6>Top 3 ARs</h6>
 	    <div class="indexguns">
 		<p>R4-C:</p>
 		<img src="images/topar1-17.svg" alt="AR">
@@ -156,6 +157,28 @@
 
 
 
+</body>
+	
 
-	</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("container");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+
+
+
+	
 </html>

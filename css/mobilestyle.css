@@ -1,7 +1,7 @@
 /*stylesheet*/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 560px) {
 
 /* vars */
 :root {
@@ -148,10 +148,14 @@ margin-left: 1.3rem;
   font-size: 20px;
 }
 
-.navbar__item:hover {
-  background: rgb(83, 110, 143)
-  transition: all 0.1s ease;
+
+.currentpagenav
+{
+  background: #637081;
+  box-shadow: 1px 0px 20px -15px white;
 }
+
+
 
 
 .navbar__item img {
@@ -249,7 +253,7 @@ div.ex2 {
   display: flex;
   text-align: center;
   margin: 50px auto auto auto;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
@@ -262,7 +266,7 @@ div.rcorners2 {
   font-weight: 600;
   font-size: 20px;
   font-family: inter;
-  margin: 10px auto 10px auto;
+  margin: 0rem auto 0rem auto;
   padding: 2em;
 }
 
@@ -287,7 +291,7 @@ div.rcorners2 {
 
 
 .arimagelist {
-padding: 1rem;
+padding: 1.5rem;
 border-radius: 1rem;
 background-color: rgb(29, 40, 51);
 margin-top: 2rem;
@@ -297,20 +301,21 @@ margin-left: .9rem;
 }
 
 .arimagetop p {
-font-size: 1.2rem;
+font-size: 1.6rem;
 font-weight: bold;
 text-align: center;
+margin: 0rem 0rem 0rem 0rem;
 }
 
 .arimagetop img{
 max-width: 100%;
 width: 50%;
-margin: 2rem auto 0 auto;
 align-items: center;
 display: flex;
 background-color: rgb(29, 40, 51);
 padding: 1rem;
 border-radius: 1rem;
+margin: 2rem auto -.9rem auto;
 
 }
 
@@ -355,30 +360,14 @@ a.ex1 {
 div.rcorners1 {
   border-radius: 40px;
   background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
   width: 92%;
   margin: auto;
-  height: 26.5rem;
 }
 
-
-
-@-moz-document url-prefix() {
-div.rcorners1 {
-  border-radius: 40px;
-  background-color: rgb(29, 40, 51);
-  padding: 1rem 1rem 1rem 1rem;
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
-  width: 92%;
-  margin: auto;
-  height: 26rem;
-}
-}
 
 
 
@@ -387,6 +376,24 @@ div.rcorners1 h6 {
 font-size: 1.15rem;
 }
 
+div.rcorners1ar {
+  border-radius: 40px;
+  background-color: rgb(29, 40, 51);
+  padding: 1.25rem 1rem 2.2rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 18rem;  
+  margin: auto;
+}
+
+
+
+
+div.rcorners1ar h6 {
+  font-weight: bold;
+font-size: 1.15rem;
+}
 
 
 
@@ -502,7 +509,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 .Note img {
-  width: 10%;
+  width: 1.5rem;
   float: left;
   margin-right: 1.7vw;
 }
@@ -511,6 +518,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 .Note p {
 font-weight: bold;
+margin: 1rem 0rem 1rem 0rem;
 }
 
 
@@ -523,18 +531,18 @@ font-weight: bold;
 
 .mapbodytop p {
 font-size: 1.4rem;
-margin: 3rem auto 1.7rem auto;
+margin: 3rem auto 1rem auto;
 }
 
 
 .mapbody p {
 font-size: 1.4rem;
-margin: 4rem auto 1.7rem auto;
+margin: 4rem auto 1rem auto;
 }
 
 .spawnbody p {
-font-size: 1.8rem;
-margin: 4.5rem auto 1.7rem auto;
+font-size: 1.4rem;
+margin: 4.5rem auto 1rem auto;
 }
 
 div.rcorners4 {
@@ -559,7 +567,7 @@ div.rcorners4 {
 .op-info-item
 {
   text-align: left;
-  margin-bottom: 6em; 
+  margin-bottom: 9rem; 
 }
 
 .op-info-finalitem
@@ -590,6 +598,27 @@ div.rcorners4 {
     padding-top: 40px;
       }
 
+.copy p {
+  max-width: 52ch;
+  line-height: 160%;
+}
+
+.copy ul li{
+  max-width: 52ch;
+  line-height: 160%;
+  list-style-type: disc;
+  word-wrap: break-word;
+
+
+}
+
+.op-info-item ul li {
+  margin-bottom: 1rem;
+}
+
+
+
+
 
 .icongif
 {
@@ -604,24 +633,10 @@ div.rcorners4 {
   font-size: 30px;
 }
 
-.icongif img {
-  display: inline-block;
-  width: 100%;
-  }
 
 
 
 
-
-
-
-.op-info-item ul {
-  list-style-type: disc;
-}
-
-.op-info-item ul li {
-  margin-bottom: 1em;
-}
 
 
 
@@ -664,6 +679,728 @@ font-size: 1.2rem;
 margin-left: 1rem;
 }
 
+
+
+}
+
+/*stylesheet*/
+
+
+@media screen and (max-height: 600px) {
+
+/* vars */
+:root {
+  --background-color: rgb(41,55,71);
+  --body-color: #fff;
+}
+body {
+  margin: 0;
+  font-family: inter;
+  color:  var(--body-color);
+  background: var(--background-color);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.indexlogo {
+  width: 20rem;
+ margin: 2rem auto auto auto;
+  }
+
+
+.navbar {
+  background: rgb(29, 40, 51);
+  box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
+}
+
+
+
+#navbar__logo {
+width: 10rem;
+margin: auto 0;
+margin-left: 2rem;
+}
+
+#navbar__logo img {
+  width: 100%;
+
+}
+
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+.navbar__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+
+
+
+
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+   background: rgb(29, 40, 51);
+  }
+
+  .navbar__menu {
+    
+    margin: 0;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: all 0.1s ease;
+    z-index: -1000;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .navbar__menu.active {
+ 
+    border-radius: 0px 0px 50px 0px;
+    max-height: 100%;
+    width: 25rem;
+    overflow-y: scroll;
+    background: rgb(29, 40, 51);
+    top: 100%;
+    opacity: 1;
+    transition: all 0.1s ease;
+    font-size: 1.6rem;
+    padding-right: 7rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
+  }
+
+
+
+
+.navbar__toggle {
+
+  margin-top: .99rem;
+ margin-right: 2rem; 
+}
+
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.1s ease-in-out;
+    background: #fff;
+  }
+
+ 
+
+  .navbar__item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: .6rem 0;
+  width: 230px;
+  transition: all 0.1s ease;
+  background: rgb(62, 82, 107);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius:  0px 50px 50px 0px;
+  font-size: 20px;
+}
+
+.navbar__item:hover {
+  background: rgb(83, 110, 143);
+  transition: all 0.1s ease;
+}
+
+
+.navbar__item img {
+ width: 20%;
+ margin-right: 5px;
+ margin-left: 20px;
+}
+
+.currentpagenav
+{
+  background: #637081;
+  box-shadow: 1px 0px 20px -15px white;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+/*Mobile Nav End*/
+
+
+
+
+
+/* Hero Section */
+
+
+/*stylesheet*/
+
+/* vars */
+:root {
+  --background-color: rgb(41,55,71);
+  --body-color: #fff;
+}
+body {
+  margin: 0;
+  font-family: inter;
+  color:  var(--body-color);
+  background: var(--background-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AR Stats Page*/
+
+
+
+
+
+div.ex2 {
+  display: flex;
+  text-align: center;
+  margin: 50px auto auto auto;
+  font-size: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  }
+
+
+div.rcorners2 {
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: inter;
+  margin: 2rem auto 2rem auto;
+  padding: 2em;
+}
+
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%; 
+  display: flex;
+}
+
+.ar-imagerank {
+  margin-top: 1.5rem;
+
+
+
+}
+
+
+
+
+
+
+
+.arimagelist {
+padding: 1rem;
+border-radius: 1rem;
+background-color: rgb(29, 40, 51);
+margin-top: 2rem;
+margin-bottom: 2rem;
+margin-right: 1.4rem;
+margin-left: 1.4rem;
+}
+
+
+
+
+
+.arimagetop p {
+font-size: 2.6rem;
+font-weight: bold;
+text-align: center;
+margin: 2.85rem 0rem 4rem 0rem;
+}
+
+.arimagetop img{
+max-width: 100%;
+width: 50%;
+margin: 2rem auto 2rem auto;
+align-items: center;
+display: flex;
+background-color: rgb(29, 40, 51);
+padding: 1.5rem;
+border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+  font-size: 1.5em;
+}
+
+
+a.ex1 {
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(29, 40, 51);
+  border-radius: 100px;
+  width: 16rem;
+  margin: 1.10em auto .95em auto;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex1:hover {
+  background-color: rgb(62, 82, 107);
+}
+
+
+
+
+
+
+/*AR Stats Page*/
+
+
+
+div.rcorners1 {
+  border-radius: 40px;
+  background-color: rgb(29, 40, 51);
+  padding: 1.25rem 1rem 2.6rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 80%;
+  margin: auto;
+}
+
+
+div.rcorners1 h6 {
+  font-weight: bold;
+  font-size: 1.18rem;
+  margin-bottom: 1.7rem;
+}
+
+
+
+div.rcorners1ar {
+  border-radius: 40px;
+  background-color: rgb(29, 40, 51);
+  padding: 1.25rem 1rem 2.2rem 1rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
+
+div.rcorners1ar h6 {
+  font-weight: bold;
+font-size: 1.18rem;
+margin-bottom: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.map-infoinside p{
+  margin-top: 1.2rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+
+div.map-infoinside img{
+ width: 46.5%;
+
+}
+
+
+div.indexoperators p {
+  margin-top: 1.2rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+
+
+div.indexoperators img{
+  width: 30%;
+
+}
+
+
+div.indexguns p {
+  margin-top: 1.2rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+
+div.indexguns img {
+width: 70%;
+}
+
+
+
+
+
+
+
+
+
+h4 {
+  font-size: 1.5em;
+}
+h4:before, h5:before {
+  display: inline;
+  content: '';
+  background-size: cover;
+  background-repeat: none;
+  padding-left: 2.2em;
+}
+
+h4.ar-stats:before, h5.ar-stats:before {
+  background-image: url('../images/gunv5-01.svg');
+}
+
+h4.smg-stats:before, h5.smg-stats:before {
+  background-image: url('../images/gunv6-01-01.svg');
+}
+
+h4.map-info:before, h5.map-info:before {
+  background-image: url('../images/map2-01.svg');
+}
+
+h4.op-info:before, h5.op-info:before{
+  background-image: url('../images/op-info-01.svg');
+}
+
+h4.op-tips:before, h5.op-tips:before {
+  background-image: url('../images/light-bulb-01.svg');
+}
+
+h4.spawn-peeks:before, h5.spawn-peeks:before {
+  background-image: url('../images/spawnv3-01.svg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Map Info Page*/
+
+
+/*Top Note*/
+
+.Note{
+  text-align: right;
+  font-size:2.6rem;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+
+.Note img {
+  width: 3rem;
+  float: left;
+  margin-right: 1.7vw;
+}
+
+
+
+.Note p {
+margin: 1rem 0rem 1rem 0rem;
+font-weight: bold;
+}
+
+
+
+/*Top Note*/
+
+
+
+
+.mapbodytop p {
+font-size: 2rem;
+margin: 3rem auto 1rem auto;
+}
+
+.mapbody p {
+font-size: 2rem;
+margin: 4rem auto 1rem auto;
+}
+
+.spawnbody p {
+font-size: 2rem;
+margin: 4rem auto 1rem auto;
+}
+
+
+
+
+
+
+
+/*Op Info*/
+
+.op-info-item
+{
+  text-align: left;
+  margin-bottom: 9rem; 
+}
+
+.op-info-finalitem
+{
+  text-align: left; 
+}
+
+
+.icon
+{
+  text-align: center;
+}
+.icon img
+{
+  display: inline-block;
+  width: 20%;
+
+  }
+
+.icon h3
+{
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+  .copy {
+    padding-top: 40px;
+      }
+
+
+ .copy p {
+  max-width: 52ch;
+  line-height: 160%;
+  word-wrap: break-word;
+  margin: 0 10rem;
+  font-size: 1.2rem;
+}
+
+.copy ul {
+  max-width: 56ch;
+  line-height: 160%;
+  margin: 0 10rem;
+  list-style-type: disc;
+  word-wrap: break-word;
+}  
+
+
+.op-info-item ul li {
+  margin-bottom: 1rem;
+}
+
+
+
+
+.icongif
+{
+  text-align: center;
+}
+
+
+.icongif h3
+{
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.icongif img {
+  display: inline-block;
+  padding:  0 10rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.rcorners4 {
+  
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: inter;
+  margin: 40px auto 15px auto;
+}
+
+#footer {
+  align-content: space-between;
+  background-color: rgb(29, 40, 51);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem
+}
+
+
+
+
+.ftcontent {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2.5rem auto;
+  display: flex;
+
+}
+
+
+
+.ftcontent img {
+width: 4rem;
+vertical-align: baseline;
+float: left;
+}
+
+
+.ftcontent p {
+font-weight: bold;
+font-size: 1.6rem;
+margin-left: 1.5rem;
+}
 
 
 }
