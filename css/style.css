@@ -2,7 +2,7 @@
 @media screen and (min-width: 1230px) {
 /* vars */
 :root {
-  --background-color: rgb(41,55,71);
+  --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
 body {
@@ -10,6 +10,10 @@ body {
   font-family: inter;
   color:  var(--body-color);
   background: var(--background-color);
+}
+
+.home {
+  background-color: rgb(41,55,71);
 }
 
 
@@ -324,7 +328,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 div.ex2 {
-  display: flex;
+  display: none;
   text-align: center;
   margin: 50px auto auto auto;
   font-size: 3.2rem;
@@ -382,7 +386,7 @@ div.rcorners2 {
 padding: 2.5rem;
 border-radius: 2rem;
 background-color: rgb(29, 40, 51);
-margin-top: 2rem;
+margin-top: 4rem;
 margin-bottom: 2rem;
 margin-right: 3rem;
 margin-left: 3rem;
@@ -392,7 +396,7 @@ margin-left: 3rem;
 font-size: 2rem;
 font-weight: bold;
 text-align: center;
-margin: 2.85rem 0rem 4rem 0rem;
+margin: 6.36rem 0rem 4rem 0rem;
 }
 
 .arimagetop img{
@@ -401,7 +405,7 @@ width: 26%;
 margin: 2rem auto 2rem auto;
 align-items: center;
 display: flex;
-background-color: rgb(29, 40, 51);
+background-color: rgb(41,55,71);
 padding: 2rem;
 border-radius: 2rem;
 
@@ -441,6 +445,7 @@ h4 {
   justify-content: center;
   text-align: center;
   display: flex;
+  margin-top: 4rem;
 }
 
 
@@ -473,12 +478,12 @@ margin: 4rem auto 1.7rem auto;
 
 .mapbody p {
 font-size: 2.5rem;
-margin: 4rem auto 1.7rem auto;
+margin: 8rem auto 1.7rem auto;
 }
 
 .spawnbody p {
 font-size: 2.5rem;
-margin: 4.5rem auto 1.7rem auto;
+margin: 8.5rem auto 1.7rem auto;
 }
 
 div.rcorners4 {
@@ -599,7 +604,7 @@ div.rcorners4 {
 
 #footer {
   align-content: space-between;
-  background-color: rgb(29, 40, 51);
+  background-color: rgb(41,55,71);
   justify-content: center;
   align-items: center;
   width: 100%;

@@ -2,20 +2,6 @@
 
 $(document).ready(function() {
 
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("container");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
 console.log('hello');
 
 const menu = document.querySelector('#mobile-menu');
@@ -74,6 +60,7 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
 
 });
 
