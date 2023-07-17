@@ -1,11 +1,8 @@
 /*stylesheet*/
-
-
 @media screen and (min-width: 560px) and (max-width: 1230px) {
-
 /* vars */
 :root {
-  --background-color: rgb(41,55,71);
+  --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
 body {
@@ -13,6 +10,10 @@ body {
   font-family: inter;
   color:  var(--body-color);
   background: var(--background-color);
+}
+
+.home {
+  background-color: rgb(41,55,71);
 }
 
 
@@ -149,7 +150,7 @@ margin-left: 2rem;
   padding: .6rem 0;
   width: 230px;
   transition: all 0.1s ease;
-  background: rgb(62, 82, 107);
+  background: rgb(41,55,71);
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius:  0px 50px 50px 0px;
@@ -157,17 +158,14 @@ margin-left: 2rem;
 }
 
 .navbar__item:hover {
-  background: #637081;
-  box-shadow: 1px 0px 30px -13px white;
+  background: rgb(62, 82, 107);
   transition: all 0.1s ease;
 }
 
 
 .currentpagenav
 {
-  background: #637081;
-  box-shadow: 1px 0px 20px -15px white;
-
+  background: rgb(62, 82, 107);
 }
 
 
@@ -227,7 +225,7 @@ margin-left: 2rem;
 
 /* vars */
 :root {
-  --background-color: rgb(41,55,71);
+  --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
 body {
@@ -246,7 +244,10 @@ body {
 
 
 
+.up1 {
 
+  margin-top: 4rem;
+}
 
 
 
@@ -265,11 +266,12 @@ body {
 div.ex2 {
   display: flex;
   text-align: center;
-  margin: 50px auto auto auto;
   font-size: 3.2rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  background-color: rgb(62, 82, 107);
+  padding: 2.8rem 2.8rem;
   }
 
 
@@ -296,6 +298,7 @@ div.rcorners2 {
 
 
 }
+
 
 
 
@@ -330,7 +333,7 @@ width: 50%;
 margin: 2rem auto 2rem auto;
 align-items: center;
 display: flex;
-background-color: rgb(29, 40, 51);
+background-color: rgb(41,55,71);
 padding: 1.5rem;
 border-radius: 1rem;
 }
@@ -563,17 +566,17 @@ font-weight: bold;
 
 .mapbodytop p {
 font-size: 2rem;
-margin: 3rem auto 1rem auto;
+margin: 6rem auto 2rem auto;
 }
 
 .mapbody p {
 font-size: 2rem;
-margin: 4rem auto 1rem auto;
+margin: 8rem auto 2rem auto;
 }
 
 .spawnbody p {
 font-size: 2rem;
-margin: 4rem auto 1rem auto;
+margin: 8rem auto 2rem auto;
 }
 
 
@@ -689,7 +692,7 @@ div.rcorners4 {
 
 #footer {
   align-content: space-between;
-  background-color: rgb(29, 40, 51);
+  background-color: rgb(62, 82, 107);
   justify-content: center;
   align-items: center;
   width: 100%;
