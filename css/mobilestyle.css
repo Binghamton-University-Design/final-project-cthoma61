@@ -596,7 +596,7 @@ div.rcorners4 {
 .op-info-item
 {
   text-align: left;
-  margin-bottom: 6rem; 
+  margin-bottom: 7rem; 
 }
 
 .op-info-finalitem
@@ -618,13 +618,13 @@ div.rcorners4 {
 
 .icon h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 24px;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
   .copy {
-    padding-top: 40px;
+    padding-top: 24px;
       }
 
 .copy p {
