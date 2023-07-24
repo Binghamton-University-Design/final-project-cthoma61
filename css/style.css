@@ -142,8 +142,40 @@ margin-right: 1vw;
 
 /*Index*/
 
-h4 {
+
+h1 {
   font-size: 1.5em;
+}
+h1:before, h1:before {
+  display: inline;
+  content: '';
+  background-size: cover;
+  background-repeat: none;
+  padding-left: 2.2em;
+}
+
+h1.ar-stats:before, h1.ar-stats:before {
+  background-image: url('../images/gunv5-01.svg');
+}
+
+h1.smg-stats:before, h1.smg-stats:before {
+  background-image: url('../images/gunv6-01-01.svg');
+}
+
+h1.map-info:before, h1.map-info:before {
+  background-image: url('../images/map2-01.svg');
+}
+
+h1.op-info:before, h1.op-info:before{
+  background-image: url('../images/op-info-01.svg');
+}
+
+h1.op-tips:before, h1.op-tips:before {
+  background-image: url('../images/light-bulb-01.svg');
+}
+
+h1.spawn-peeks:before, h1.spawn-peeks:before {
+  background-image: url('../images/spawnv3-01.svg');
 }
 
 
@@ -338,34 +370,17 @@ div.ex2 {
   }
 
 
+
+
 div.rcorners2 {
   border-radius: 40px;
-  padding: 0;
   text-align: center;
   font-weight: 600;
   font-size: 20px;
   font-family: inter;
-  margin: 2rem auto 2rem auto;
-  padding: 2em;
+  margin: 8.5rem 2rem auto 2rem;
 }
 
-#wrapper{
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%; 
-  display: flex;
-}
-
-
-div.rcorners2 {
-  padding: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: inter;
-  margin: 10px auto 10px auto;
-  padding: 2em;
-}
 
 
 #wrapper{
@@ -478,13 +493,20 @@ margin: 4rem auto 1.7rem auto;
 
 .mapbody p {
 font-size: 2.5rem;
-margin: 8rem auto 1.7rem auto;
+margin: 12rem auto 1.7rem auto;
 }
 
 .spawnbody p {
 font-size: 2.5rem;
+margin: 12rem auto 1.7rem auto;
+}
+
+.spawnbodytop p {
+font-size: 2.5rem;
 margin: 8.5rem auto 1.7rem auto;
 }
+
+
 
 div.rcorners4 {
   
@@ -512,7 +534,7 @@ div.rcorners4 {
 .op-info-item
 {
   text-align: left;
-  margin-bottom: 6em; 
+  margin-bottom: 12rem; 
 }
 
 .op-info-finalitem
@@ -608,7 +630,7 @@ div.rcorners4 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 4rem
+  margin-top: 8.5rem
 }
 
 

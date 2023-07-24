@@ -40,6 +40,48 @@ body {
   margin-top: 3.8rem;
 }
 
+.up2 {
+
+  margin-top: 3.8rem;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+}
+h1:before, h1:before {
+  display: inline;
+  content: '';
+  background-size: cover;
+  background-repeat: none;
+  padding-left: 2.2em;
+}
+
+h1.ar-stats:before, h1.ar-stats:before {
+  background-image: url('../images/gunv5-01.svg');
+}
+
+h1.smg-stats:before, h1.smg-stats:before {
+  background-image: url('../images/gunv6-01-01.svg');
+}
+
+h1.map-info:before, h1.map-info:before {
+  background-image: url('../images/map2-01.svg');
+}
+
+h1.op-info:before, h1.op-info:before{
+  background-image: url('../images/op-info-01.svg');
+}
+
+h1.op-tips:before, h1.op-tips:before {
+  background-image: url('../images/light-bulb-01.svg');
+}
+
+h1.spawn-peeks:before, h1.spawn-peeks:before {
+  background-image: url('../images/spawnv3-01.svg');
+}
+
+
 
 .navbar {
   background: rgb(29, 40, 51);
@@ -313,7 +355,7 @@ margin-left: .9rem;
 }
 
 .arimagetop p {
-font-size: 1.75rem;
+font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
 margin: 0rem 0rem 0rem 0rem;
@@ -337,10 +379,6 @@ margin: 2rem auto -.9rem auto;
 
 
 
-
-h4 {
-  font-size: 1.5em;
-}
 
 
 a.ex1 {
@@ -385,7 +423,7 @@ div.rcorners1 {
 
 div.rcorners1 h6 {
   font-weight: bold;
-font-size: 1.15rem;
+font-size: 1.25rem;
 }
 
 div.rcorners1ar {
@@ -544,27 +582,37 @@ font-size: 1.75rem;
 
 .mapbodytop p {
 font-size: 1.5rem;
-margin: 5.5rem auto 1rem auto;
-}
-
-.mapbodytop img {
-width: 84%;
+margin: 4rem auto 1rem auto;
 }
 
 
 .mapbody p {
 font-size: 1.5rem;
-margin: 5.5rem auto 1rem auto;
+margin: 8rem auto 1rem auto;
 }
 
-.mapbody img {
-width: 84%;
-  }
 
 .spawnbody p {
 font-size: 1.5rem;
-margin: 5.5rem auto 1rem auto;
+margin: 8rem auto 1rem auto;
 }
+
+.spawnbodytop p {
+font-size: 1.5rem;
+margin: 4rem auto 1.7rem auto;
+}
+
+
+.mapbody img {
+width: 84%;
+}
+
+
+
+.mapbodytop img {
+width: 84%;
+}
+
 
 .spawnbody img {
 width: 84%;
@@ -629,7 +677,6 @@ div.rcorners4 {
 
 .copy p {
   max-width: 52ch;
-    width: 80%;
   margin-left: 2.75rem;
   margin-right: 2.75rem;
   line-height: 160%;
@@ -665,7 +712,7 @@ div.rcorners4 {
 
 .icongif h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 1.5rem;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -673,7 +720,8 @@ div.rcorners4 {
 
 .icongif img {
 
-  width: 77%;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 
 
@@ -689,7 +737,7 @@ div.rcorners4 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 4rem
+  margin-top: 8.5rem
 }
 
 
