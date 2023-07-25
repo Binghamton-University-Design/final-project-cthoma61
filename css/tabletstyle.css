@@ -5,6 +5,7 @@
   --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
+
 body {
   margin: 0;
   font-family: inter;
@@ -319,7 +320,7 @@ div.rcorners2 {
   font-weight: 600;
   font-family: inter;
   margin: 2rem auto 2rem auto;
-  padding: 2em;
+  padding: 2rem;
 }
 
 
@@ -348,7 +349,7 @@ div.rcorners2 {
 padding: 1rem;
 border-radius: 1rem;
 background-color: rgb(29, 40, 51);
-margin-top: 2rem;
+margin-top: 4rem;
 margin-bottom: 2rem;
 margin-right: 1.4rem;
 margin-left: 1.4rem;
@@ -781,9 +782,4 @@ font-weight: bold;
 font-size: 1.6rem;
 margin-left: 1.5rem;
 }
-
-
-
-
-
 }

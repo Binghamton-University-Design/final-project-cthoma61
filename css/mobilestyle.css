@@ -320,8 +320,8 @@ div.rcorners2 {
   font-weight: 600;
   font-size: .75rem;
   font-family: inter;
-  margin: 3rem auto 1rem auto;
-  padding: 2em;
+  margin: 3rem auto auto auto;
+  padding: 2rem auto auto auto;
 }
 
 
@@ -349,7 +349,6 @@ padding: 1.5rem;
 border-radius: 1rem;
 background-color: rgb(29, 40, 51);
 margin-top: 2rem;
-margin-bottom: 2rem;
 margin-right: .9rem;
 margin-left: .9rem;
 }
@@ -358,7 +357,7 @@ margin-left: .9rem;
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-margin: 0rem 0rem 0rem 0rem;
+margin: 4rem 0rem 0rem 0rem;
 }
 
 .arimagetop img{
@@ -737,7 +736,7 @@ div.rcorners4 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 8.5rem
+  margin-top: 4rem
 }
 
 
@@ -766,9 +765,6 @@ font-weight: bold;
 font-size: 1.2rem;
 margin-left: 1rem;
 }
-
-
-
 }
 
 /*stylesheet*/
@@ -780,7 +776,7 @@ margin-left: 1rem;
 
 /* vars */
 :root {
-  --background-color: rgb(41,55,71);
+  --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
 body {
@@ -789,6 +785,12 @@ body {
   color:  var(--body-color);
   background: var(--background-color);
 }
+
+
+.home {
+  background-color: rgb(41,55,71);
+}
+
 
 
 * {
@@ -800,9 +802,56 @@ body {
 }
 
 .indexlogo {
-  width: 20rem;
- margin: 2rem auto auto auto;
+  width: 13rem;
+  margin: 2rem auto auto auto;
   }
+
+.up1 {
+
+  margin-top: 3.8rem;
+}
+
+.up2 {
+
+  margin-top: 3.8rem;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+}
+h1:before, h1:before {
+  display: inline;
+  content: '';
+  background-size: cover;
+  background-repeat: none;
+  padding-left: 2.2em;
+}
+
+h1.ar-stats:before, h1.ar-stats:before {
+  background-image: url('../images/gunv5-01.svg');
+}
+
+h1.smg-stats:before, h1.smg-stats:before {
+  background-image: url('../images/gunv6-01-01.svg');
+}
+
+h1.map-info:before, h1.map-info:before {
+  background-image: url('../images/map2-01.svg');
+}
+
+h1.op-info:before, h1.op-info:before{
+  background-image: url('../images/op-info-01.svg');
+}
+
+h1.op-tips:before, h1.op-tips:before {
+  background-image: url('../images/light-bulb-01.svg');
+}
+
+h1.spawn-peeks:before, h1.spawn-peeks:before {
+  background-image: url('../images/spawnv3-01.svg');
+}
+
 
 
 .navbar {
@@ -996,7 +1045,7 @@ margin-left: 2rem;
 
 /* vars */
 :root {
-  --background-color: rgb(41,55,71);
+  --background-color: rgb(29, 40, 51);
   --body-color: #fff;
 }
 body {
@@ -1034,11 +1083,13 @@ body {
 div.ex2 {
   display: flex;
   text-align: center;
-  margin: 50px auto auto auto;
-  font-size: 3.2rem;
+  margin: 0px auto auto auto;
+  font-size: 1.8rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  background-color: rgb(62, 82, 107);
+  padding: 2rem 2rem;
   }
 
 
@@ -1046,9 +1097,10 @@ div.rcorners2 {
   padding: 0;
   text-align: center;
   font-weight: 600;
+  font-size: .75rem;
   font-family: inter;
-  margin: 2rem auto 2rem auto;
-  padding: 2em;
+  margin: 3rem auto auto auto;
+  padding: 2rem auto auto auto;
 }
 
 
@@ -1071,37 +1123,32 @@ div.rcorners2 {
 
 
 
-
 .arimagelist {
-padding: 1rem;
+padding: 1.5rem;
 border-radius: 1rem;
 background-color: rgb(29, 40, 51);
 margin-top: 2rem;
-margin-bottom: 2rem;
-margin-right: 1.4rem;
-margin-left: 1.4rem;
+margin-right: .9rem;
+margin-left: .9rem;
 }
 
-
-
-
-
 .arimagetop p {
-font-size: 2.6rem;
+font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
-margin: 2.85rem 0rem 4rem 0rem;
+margin: 4rem 0rem 0rem 0rem;
 }
 
 .arimagetop img{
 max-width: 100%;
 width: 50%;
-margin: 2rem auto 2rem auto;
 align-items: center;
 display: flex;
-background-color: rgb(29, 40, 51);
-padding: 1.5rem;
+background-color: rgb(41,55,71);
+padding: 1rem;
 border-radius: 1rem;
+margin: 2rem auto -.9rem auto;
+
 }
 
 
@@ -1110,13 +1157,6 @@ border-radius: 1rem;
 
 
 
-
-
-
-
-h4 {
-  font-size: 1.5em;
-}
 
 
 a.ex1 {
@@ -1140,6 +1180,7 @@ a.ex1 {
 
 
 
+
 /*AR Stats Page*/
 
 
@@ -1151,18 +1192,17 @@ div.rcorners1 {
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 80%;
+  width: 92%;
   margin: auto;
 }
 
 
+
+
 div.rcorners1 h6 {
   font-weight: bold;
-  font-size: 1.18rem;
-  margin-bottom: 1.7rem;
+font-size: 1.25rem;
 }
-
-
 
 div.rcorners1ar {
   border-radius: 40px;
@@ -1171,29 +1211,17 @@ div.rcorners1ar {
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 80%;
+  width: 18rem;  
   margin: auto;
 }
 
 
 
 
-
-
 div.rcorners1ar h6 {
   font-weight: bold;
-font-size: 1.18rem;
-margin-bottom: 1.7rem;
+font-size: 1.15rem;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1241,9 +1269,8 @@ width: 70%;
 
 
 
-
 h4 {
-  font-size: 1.5em;
+  font-size: 2rem;
 }
 h4:before, h5:before {
   display: inline;
@@ -1293,15 +1320,14 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 
-
 /*Map Info Page*/
 
 
 /*Top Note*/
 
 .Note{
-  text-align: right;
-  font-size:2.6rem;
+    text-align: right;
+  font-size:1.625rem;
   font-weight: bold;
   align-items: center;
   justify-content: center;
@@ -1311,7 +1337,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 .Note img {
-  width: 3rem;
+  width: 1.5rem;
   float: left;
   margin-right: 1.7vw;
 }
@@ -1319,31 +1345,71 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 .Note p {
-margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
+margin: 1rem 0rem 1rem 0rem;
+font-size: 1.75rem;
 }
 
 
 
 /*Top Note*/
 
-
-
+.maps {
+  font size: 35px;
+}
 
 .mapbodytop p {
-font-size: 2rem;
-margin: 3rem auto 1rem auto;
+font-size: 1.5rem;
+margin: 4rem auto 1rem auto;
 }
+
 
 .mapbody p {
-font-size: 2rem;
-margin: 4rem auto 1rem auto;
+font-size: 1.5rem;
+margin: 8rem auto 1rem auto;
 }
 
+
 .spawnbody p {
-font-size: 2rem;
-margin: 4rem auto 1rem auto;
+font-size: 1.5rem;
+margin: 8rem auto 1rem auto;
 }
+
+.spawnbodytop p {
+font-size: 1.5rem;
+margin: 4rem auto 1.7rem auto;
+}
+
+
+.mapbody img {
+width: 84%;
+}
+
+
+
+.mapbodytop img {
+width: 84%;
+}
+
+
+.spawnbody img {
+width: 84%;
+}
+
+
+
+
+
+div.rcorners4 {
+  
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: inter;
+  margin: 10px auto 10px auto;
+}
+
+
 
 
 
@@ -1356,7 +1422,7 @@ margin: 4rem auto 1rem auto;
 .op-info-item
 {
   text-align: left;
-  margin-bottom: 9rem; 
+  margin-bottom: 7rem; 
 }
 
 .op-info-finalitem
@@ -1372,42 +1438,46 @@ margin: 4rem auto 1rem auto;
 .icon img
 {
   display: inline-block;
-  width: 20%;
+  width: 28%;
 
   }
 
 .icon h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 24px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
   .copy {
-    padding-top: 40px;
+    padding-top: 24px;
       }
 
-
- .copy p {
+.copy p {
   max-width: 52ch;
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
   line-height: 160%;
-  word-wrap: break-word;
-  margin: 0 10rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.copy ul {
-  max-width: 56ch;
+.copy ul li{
+  max-width: 52ch;
+  width: 80%;
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
   line-height: 160%;
-  margin: 0 10rem;
   list-style-type: disc;
   word-wrap: break-word;
-}  
+  font-size: 1rem;
 
+
+}
 
 .op-info-item ul li {
   margin-bottom: 1rem;
 }
+
 
 
 
@@ -1420,45 +1490,28 @@ margin: 4rem auto 1rem auto;
 
 .icongif h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 1.5rem;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.5rem;
 }
+
 
 .icongif img {
-  display: inline-block;
-  padding:  0 10rem;
-  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div.rcorners4 {
-  
-  text-align: center;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: inter;
-  margin: 40px auto 15px auto;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
+
+
+
+
+
+
+
 
 #footer {
   align-content: space-between;
-  background-color: rgb(29, 40, 51);
+  background-color: rgb(62, 82, 107);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -1480,7 +1533,7 @@ div.rcorners4 {
 
 
 .ftcontent img {
-width: 4rem;
+width: 2rem;
 vertical-align: baseline;
 float: left;
 }
@@ -1488,9 +1541,7 @@ float: left;
 
 .ftcontent p {
 font-weight: bold;
-font-size: 1.6rem;
-margin-left: 1.5rem;
+font-size: 1.2rem;
+margin-left: 1rem;
 }
-
-
 }
