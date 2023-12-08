@@ -258,7 +258,7 @@ body {
 
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 h1:before, h1:before {
   display: inline;
@@ -402,10 +402,10 @@ h4 {
 
 a.ex1 {
   display: flex;
-  padding: 24px 24px 24px 24px;
+  padding: 20px 20px 20px 20px;
   background-color: rgb(29, 40, 51);
   border-radius: 100px;
-  width: 22rem;
+  width: 16rem;
   margin: 1.10em auto .95em auto;
   font-weight: bold;
   justify-content: center;
