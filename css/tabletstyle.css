@@ -363,13 +363,21 @@ margin-left: 1.4rem;
 font-size: 1.875rem;
 font-weight: bold;
 text-align: center;
-margin: 2.85rem 0rem 4rem 0rem;
+margin: 2.85rem 0rem 0rem 0rem;
+}
+
+.arimagetop3 {
+font-size: 2.175rem;
+font-weight: 900;
+text-align: center;
+margin: 0rem 0rem 0rem 0rem;
+color: rgb(96,122,166);
 }
 
 .arimagetop img{
 max-width: 100%;
 width: 50%;
-margin: 2rem auto 2rem auto;
+margin: 4rem auto 2rem auto;
 align-items: center;
 display: flex;
 background-color: rgb(41,55,71);
