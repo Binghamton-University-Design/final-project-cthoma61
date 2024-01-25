@@ -25,6 +25,12 @@ body {
   scroll-behavior: smooth;
 }
 
+/*
+.navbar__menu a:focus {
+  background: yellow;
+  border-radius: 18px;
+}
+*/
 
 .indexlogo {
   width: 20rem;
@@ -123,6 +129,8 @@ margin-right: 1vw;
 }
 
 
+
+
 .currentpagenav
 {
   background: rgb(62, 82, 107);
@@ -143,10 +151,10 @@ margin-right: 1vw;
 /*Index*/
 
 
-h1 {
+button {
   font-size: 1.5em;
 }
-h1:before, h1:before {
+button:before, button:before {
   display: inline;
   content: '';
   background-size: cover;
@@ -154,27 +162,27 @@ h1:before, h1:before {
   padding-left: 2.2em;
 }
 
-h1.ar-stats:before, h1.ar-stats:before {
+button.ar-stats:before, button.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h1.smg-stats:before, h1.smg-stats:before {
+button.smg-stats:before, button.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h1.map-info:before, h1.map-info:before {
+button.map-info:before, button.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h1.op-info:before, h1.op-info:before{
+button.op-info:before, button.op-info:before{
   background-image: url('../images/op-info-01.svg');
 }
 
-h1.op-tips:before, h1.op-tips:before {
+button.op-tips:before, button.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h1.spawn-peeks:before, h1.spawn-peeks:before {
+button.spawn-peeks:before, button.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
@@ -200,30 +208,33 @@ a.ex1 {
 
 
 div.rcorners1 {
-  border-radius: 24px;
+  border-radius: 1rem;
   background-color: rgb(29, 40, 51);
   padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
   width: 18rem;  
   margin: auto;
 
 }
 
 
-div.rcorners1 h6 {
+div.rcorners1 h1 {
   font-weight: bold;
-font-size: 1.15rem;
+font-size: 1.3rem;
+font-style: italic;
+}
+
+
+
+span.three {
+font-weight: 850;
 }
 
 div.rcorners1ar {
-  border-radius: 24px;
+  border-radius: 1rem;
   background-color: rgb(29, 40, 51);
-  padding: 1.25rem 1rem 2.2rem 1rem;
+  padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
   width: 18rem;  
   margin: auto;
 }
@@ -233,20 +244,19 @@ div.rcorners1ar {
 
 
 
-div.rcorners1ar h6 {
+div.rcorners1ar h1 {
   font-weight: bold;
-font-size: 1.15rem;
+font-size: 1.3rem;
+font-style: italic;
 }
 
 
 
 div.up1 {
-  margin-top: 3rem;
 }
 
 
 div.up2 {
-  margin-top: 3rem;
 }
 
 
@@ -267,9 +277,11 @@ div.map-infoinside img{
 
 
 div.indexoperators p {
-  margin-top: 1.2rem;
+  margin-top: 1.8rem;
   margin-bottom: .5rem;
   font-size: 1rem;
+  font-weight: 650;
+  font-style: italic;
 }
 
 
@@ -280,21 +292,26 @@ div.indexoperators img{
 
 
 div.indexguns p {
-  margin-top: 1.2rem;
+  margin-top: 1.8rem;
   margin-bottom: .5rem;
   font-size: 1rem;
+  font-weight: 650;
+  font-style: italic;
 }
 
 div.indexguns img {
 width: 70%;
 }
 
-
-
-h4 {
-  font-size: 1.5em;
+#ak {
+  width: 63.92%;
 }
-h4:before, h5:before {
+
+
+div.ex2 h1 {
+  font-size: 1.5rem;
+}
+div.ex2 h1:before {
   display: inline;
   content: '';
   background-size: cover;
@@ -302,27 +319,27 @@ h4:before, h5:before {
   padding-left: 2.2em;
 }
 
-h4.ar-stats:before, h5.ar-stats:before {
+div.ex2 h1.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h4.smg-stats:before, h5.smg-stats:before {
+div.ex2 h1.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h4.map-info:before, h5.map-info:before {
+div.ex2 h1.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h4.op-info:before, h5.op-info:before{
+div.ex2 h1.op-info:before{
   background-image: url('../images/op-info-01.svg');
 }
 
-h4.op-tips:before, h5.op-tips:before {
+div.ex2 h1.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h4.spawn-peeks:before, h5.spawn-peeks:before {
+div.ex2 h1.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
@@ -385,6 +402,7 @@ div.rcorners2 {
 
 #wrapper{
   margin: 0 auto;
+  margin-top: 6rem;
   max-width: 1200px;
   width: 100%; 
   display: flex;
@@ -443,9 +461,6 @@ border-radius: 2rem;
 
 
 
-h4 {
-  font-size: 1.5em;
-}
 
 
 
@@ -513,6 +528,11 @@ font-size: 2.5rem;
 margin: 8.5rem auto 1.7rem auto;
 }
 
+.spawnbody img {
+border-style: solid;
+  border-color: #293747;
+  border-width: .25rem;
+}
 
 
 div.rcorners4 {
@@ -586,9 +606,32 @@ div.rcorners4 {
 .icongif img {
   display: inline-block;
   width: 90%;
+  border-style: solid;
+  border-color: #293747;
+  border-width: .25rem;
   }
 
 
+
+
+
+
+
+
+
+.mapbodytop img {
+  border-style: solid;
+border-color: #293747;
+border-width: .25rem;
+}
+
+
+.mapbody img {
+  border-style: solid;
+border-color: #293747;
+border-width: .25rem;
+}
+}
 
 
 
@@ -623,6 +666,13 @@ div.rcorners4 {
 
 
 
+
+
+
+
+
+
+
 /*Op Ability/*
 
 /*Contact Us*/
@@ -637,7 +687,7 @@ div.rcorners4 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 8.5rem
+  margin-top: 6rem
 }
 
 

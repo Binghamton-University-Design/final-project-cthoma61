@@ -257,10 +257,10 @@ body {
 }
 
 
-h1 {
+button {
   font-size: 1.5rem;
 }
-h1:before, h1:before {
+button:before, button:before {
   display: inline;
   content: '';
   background-size: cover;
@@ -268,27 +268,27 @@ h1:before, h1:before {
   padding-left: 2.2em;
 }
 
-h1.ar-stats:before, h1.ar-stats:before {
+button.ar-stats:before, button.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h1.smg-stats:before, h1.smg-stats:before {
+button.smg-stats:before, button.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h1.map-info:before, h1.map-info:before {
+button.map-info:before, button.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h1.op-info:before, h1.op-info:before{
+button.op-info:before, button.op-info:before{
   background-image: url('../images/op-info-01.svg');
 }
 
-h1.op-tips:before, h1.op-tips:before {
+button.op-tips:before, button.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h1.spawn-peeks:before, h1.spawn-peeks:before {
+button.spawn-peeks:before, button.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
@@ -394,9 +394,6 @@ border-radius: 1rem;
 
 
 
-h4 {
-  font-size: 1.5em;
-}
 
 
 a.ex1 {
@@ -425,7 +422,7 @@ a.ex1 {
 
 
 div.rcorners1 {
-  border-radius: 24px;
+  border-radius: 1rem;
   background-color: rgb(29, 40, 51);
   padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
@@ -436,21 +433,22 @@ div.rcorners1 {
 }
 
 
-div.rcorners1 h6 {
+div.rcorners1 h1 {
   font-weight: bold;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   margin-bottom: 1.7rem;
+font-style: italic;
 }
 
-
+span.three {
+font-weight: 850;
+}
 
 div.rcorners1ar {
-  border-radius: 24px;
+  border-radius: 1rem;
   background-color: rgb(29, 40, 51);
-  padding: 1.25rem 1rem 2.2rem 1rem;
+  padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
   width: 80%;
   margin: auto;
 }
@@ -460,10 +458,11 @@ div.rcorners1ar {
 
 
 
-div.rcorners1ar h6 {
+div.rcorners1ar h1 {
   font-weight: bold;
 font-size: 1.18rem;
 margin-bottom: 1.7rem;
+    font-style: italic;
 }
 
 
@@ -495,6 +494,8 @@ div.indexoperators p {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
+  font-weight: 650;
+  font-style: italic;
 }
 
 
@@ -508,7 +509,16 @@ div.indexguns p {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
+    font-weight: 650;
+    font-style: italic;
 }
+
+
+
+#ak {
+  width: 63.92%;
+}
+
 
 div.indexguns img {
 width: 70%;
@@ -522,10 +532,10 @@ width: 70%;
 
 
 
-h4 {
+div.ex2 h1 {
   font-size: 2.25rem;
 }
-h4:before, h5:before {
+div.ex2 h1:before{
   display: inline;
   content: '';
   background-size: cover;
@@ -533,27 +543,27 @@ h4:before, h5:before {
   padding-left: 2.2em;
 }
 
-h4.ar-stats:before, h5.ar-stats:before {
+div.ex2 h1.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h4.smg-stats:before, h5.smg-stats:before {
+div.ex2 h1.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h4.map-info:before, h5.map-info:before {
+div.ex2 h1.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h4.op-info:before, h5.op-info:before{
+div.ex2 h1.op-info:before {
   background-image: url('../images/op-info-01.svg');
 }
 
-h4.op-tips:before, h5.op-tips:before {
+div.ex2 h1.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h4.spawn-peeks:before, h5.spawn-peeks:before {
+div.ex2 h1.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
@@ -612,6 +622,9 @@ font-size: 1.875rem;
 
 .mapbodytop img {
 padding: 0 10rem;
+border-style: solid;
+border-color: #293747;
+border-width: .25rem;
 }
 
 
@@ -642,6 +655,9 @@ margin: 4rem auto 2rem auto;
 
 .spawnbody img {
 padding: 0 10rem;
+border-style: solid;
+  border-color: #293747;
+  border-width: .25rem;
 }
 
 
@@ -726,6 +742,9 @@ padding: 0 10rem;
 .icongif img {
   display: inline-block;
   padding:  0 10rem;
+  border-style: solid;
+  border-color: #293747;
+  border-width: .25rem;
   }
 
 
