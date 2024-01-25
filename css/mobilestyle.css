@@ -201,6 +201,10 @@ margin-left: 1.3rem;
   font-size: 20px;
 }
 
+.navbar__menu a:focus {
+  outline:.10rem solid white;
+  border-radius:  0px 50px 50px 0px;
+}
 
 .currentpagenav
 {

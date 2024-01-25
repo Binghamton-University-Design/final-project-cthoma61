@@ -163,6 +163,10 @@ margin-left: 2rem;
   transition: all 0.1s ease;
 }
 
+.navbar__menu a:focus {
+  outline:.10rem solid white;
+  border-radius:  0px 50px 50px 0px;
+}
 
 .currentpagenav
 {
@@ -741,7 +745,7 @@ border-style: solid;
 
 .icongif img {
   display: inline-block;
-  padding:  0 10rem;
+  width: 24rem;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
