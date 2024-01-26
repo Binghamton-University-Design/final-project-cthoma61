@@ -435,7 +435,7 @@ margin-right: 3rem;
 margin-left: 3rem;
 }
 
-.arimagetop p {
+.arimagetop h2 {
 font-size: 2rem;
 font-weight: bold;
 text-align: center;
@@ -504,7 +504,7 @@ border-radius: 2rem;
 
 
 
-.Note h2 {
+.Note h3 {
 margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
 }
@@ -517,23 +517,23 @@ font-weight: bold;
 
 /*Spawn*/
 
-.mapbodytop p {
+.mapbodytop h2 {
 font-size: 2.5rem;
 margin: 4rem auto 1.7rem auto;
 }
 
 
-.mapbody p {
+.mapbody h2 {
 font-size: 2.5rem;
 margin: 12rem auto 1.7rem auto;
 }
 
-.spawnbody p {
+.spawnbody h2 {
 font-size: 2.5rem;
 margin: 12rem auto 1.7rem auto;
 }
 
-.spawnbodytop p {
+.spawnbodytop h2 {
 font-size: 2.5rem;
 margin: 8.5rem auto 1.7rem auto;
 }

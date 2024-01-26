@@ -362,7 +362,7 @@ margin-right: .9rem;
 margin-left: .9rem;
 }
 
-.arimagetop p {
+.arimagetop h2 {
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
@@ -595,7 +595,7 @@ div.ex2 h1.spawn-peeks:before {
 
 
 
-.Note h2 {
+.Note h3 {
 font-weight: bold;
 margin: 1rem 0rem 1rem 0rem;
 font-size: 1.75rem;
@@ -609,24 +609,24 @@ font-size: 1.75rem;
   font size: 35px;
 }
 
-.mapbodytop p {
+.mapbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1rem auto;
 }
 
 
-.mapbody p {
+.mapbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
 }
 
 
-.spawnbody p {
+.spawnbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
 }
 
-.spawnbodytop p {
+.spawnbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1.7rem auto;
 }
@@ -1193,11 +1193,18 @@ margin-right: .9rem;
 margin-left: .9rem;
 }
 
-.arimagetop p {
+.arimagetop h2 {
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
 margin: 4rem 0rem 0rem 0rem;
+}
+
+.arimagetop3 {
+font-size: 1.9rem;
+font-weight: 900;
+text-align: center;
+margin: 0rem 0rem 0rem 0rem;
 }
 
 .arimagetop img{
@@ -1414,7 +1421,7 @@ h4.spawn-peeks:before, h5.spawn-peeks:before {
 
 
 
-.Note h2 {
+.Note h3 {
 font-weight: bold;
 margin: 1rem 0rem 1rem 0rem;
 font-size: 1.75rem;
@@ -1428,24 +1435,24 @@ font-size: 1.75rem;
   font size: 35px;
 }
 
-.mapbodytop p {
+.mapbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1rem auto;
 }
 
 
-.mapbody p {
+.mapbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
 }
 
 
-.spawnbody p {
+.spawnbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
 }
 
-.spawnbodytop p {
+.spawnbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1.7rem auto;
 }

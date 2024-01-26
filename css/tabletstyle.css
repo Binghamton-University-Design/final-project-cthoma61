@@ -368,7 +368,7 @@ margin-left: 1.4rem;
 
 
 
-.arimagetop p {
+.arimagetop h2 {
 font-size: 1.875rem;
 font-weight: bold;
 text-align: center;
@@ -617,7 +617,7 @@ div.ex2 h1.spawn-peeks:before {
 
 
 
-.Note h2 {
+.Note h3 {
 margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
 font-size: 1.875rem;
@@ -644,22 +644,22 @@ border-color: #293747;
 border-width: .25rem;
 }
 
-.mapbodytop p {
+.mapbodytop h2 {
 font-size: 1.75rem;
 margin: 4rem auto 2rem auto;
 }
 
-.mapbody p {
+.mapbody h2 {
 font-size: 1.75rem;
 margin: 8rem auto 2rem auto;
 }
 
-.spawnbody p {
+.spawnbody h2 {
 font-size: 1.75rem;
 margin: 8rem auto 2rem auto;
 }
 
-.spawnbodytop p {
+.spawnbodytop h2 {
 font-size: 1.75rem;
 margin: 4rem auto 2rem auto;
 }
