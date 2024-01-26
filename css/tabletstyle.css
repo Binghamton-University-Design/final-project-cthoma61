@@ -617,7 +617,7 @@ div.ex2 h1.spawn-peeks:before {
 
 
 
-.Note p {
+.Note h2 {
 margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
 font-size: 1.875rem;
@@ -701,7 +701,7 @@ margin: 4rem auto 2rem auto;
 
   }
 
-.icon h3
+.icon h2
 {
   padding-bottom: 2rem;
   font-weight: bold;
@@ -744,7 +744,7 @@ margin: 4rem auto 2rem auto;
 }
 
 
-.icongif h3
+.icongif h2
 {
   padding-bottom: 2rem;
   font-weight: bold;

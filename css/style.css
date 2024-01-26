@@ -504,7 +504,7 @@ border-radius: 2rem;
 
 
 
-.Note p {
+.Note h2 {
 margin: 1rem 0rem 1rem 0rem;
 font-weight: bold;
 }
@@ -588,7 +588,7 @@ div.rcorners4 {
 }
 
 
-.icon h3
+.icon h2
 {
   padding-bottom: 40px;
   font-weight: bold;
@@ -606,7 +606,7 @@ div.rcorners4 {
 }
 
 
-.icongif h3
+.icongif h2
 {
   padding-bottom: 40px;
   font-weight: bold;
