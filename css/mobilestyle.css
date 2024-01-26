@@ -1300,7 +1300,7 @@ font-size: 1.15rem;
 
 
 
-div.map-infoinside p{
+div.map-infoinside h2{
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -1312,7 +1312,7 @@ div.map-infoinside img{
 }
 
 
-div.indexoperators p {
+div.indexoperators h2 {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -1327,7 +1327,7 @@ div.indexoperators img{
 }
 
 
-div.indexguns p {
+div.indexguns h2 {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -1349,10 +1349,10 @@ width: 70%;
 
 
 
-h4 {
+h1 {
   font-size: 2rem;
 }
-h4:before, h5:before {
+h1:before {
   display: inline;
   content: '';
   background-size: cover;
@@ -1360,27 +1360,27 @@ h4:before, h5:before {
   padding-left: 2.2em;
 }
 
-h4.ar-stats:before, h5.ar-stats:before {
+h1.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
 }
 
-h4.smg-stats:before, h5.smg-stats:before {
+h1.smg-stats:before {
   background-image: url('../images/gunv6-01-01.svg');
 }
 
-h4.map-info:before, h5.map-info:before {
+h1.map-info:before {
   background-image: url('../images/map2-01.svg');
 }
 
-h4.op-info:before, h5.op-info:before{
+h1.op-info:before {
   background-image: url('../images/op-info-01.svg');
 }
 
-h4.op-tips:before, h5.op-tips:before {
+h1.op-tips:before {
   background-image: url('../images/light-bulb-01.svg');
 }
 
-h4.spawn-peeks:before, h5.spawn-peeks:before {
+h1.spawn-peeks:before {
   background-image: url('../images/spawnv3-01.svg');
 }
 
