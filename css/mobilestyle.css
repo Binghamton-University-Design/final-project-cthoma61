@@ -440,6 +440,7 @@ div.rcorners1 h1 {
   font-weight: bold;
 font-size: 1.3rem;
 font-style: italic;
+margin-bottom: 1.2rem
 }
 
 span.three {
@@ -462,13 +463,14 @@ div.rcorners1ar h1 {
  font-weight: bold;
 font-size: 1.3rem;
 font-style: italic;
+margin-bottom: 1.2rem
 }
 
 
 
 
 
-div.map-infoinside p{
+div.map-infoinside h2{
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -480,7 +482,7 @@ div.map-infoinside img{
 }
 
 
-div.indexoperators p {
+div.indexoperators h2 {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -494,7 +496,7 @@ div.indexoperators img{
 }
 
 
-div.indexguns p {
+div.indexguns h2 {
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -1271,6 +1273,7 @@ div.rcorners1 h1 {
   font-weight: bold;
 font-size: 1.3rem;
 font-style: italic;
+margin-bottom: 1.7rem
 }
 
 div.rcorners1ar {
