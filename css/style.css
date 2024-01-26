@@ -274,7 +274,7 @@ div.up2 {
 
 
 
-div.map-infoinside p{
+div.map-infoinside h2{
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -286,7 +286,7 @@ div.map-infoinside img{
 }
 
 
-div.indexoperators p {
+div.indexoperators h2 {
   margin-top: 1.8rem;
   margin-bottom: .5rem;
   font-size: 1rem;
@@ -301,7 +301,7 @@ div.indexoperators img{
 }
 
 
-div.indexguns p {
+div.indexguns h2 {
   margin-top: 1.8rem;
   margin-bottom: .5rem;
   font-size: 1rem;
