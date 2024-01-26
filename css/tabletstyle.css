@@ -163,9 +163,14 @@ margin-left: 2rem;
   transition: all 0.1s ease;
 }
 
-.navbar__menu a:focus {
+.navbar__menu a:focus-visible {
   outline:.10rem solid white;
   border-radius:  0px 50px 50px 0px;
+}
+
+#navbar__logo:focus-visible {
+  outline:.10rem solid white;
+  border-radius: 18px;
 }
 
 .currentpagenav
@@ -625,7 +630,7 @@ font-size: 1.875rem;
     
 
 .mapbodytop img {
-padding: 0 10rem;
+width: 60%;
 border-style: solid;
 border-color: #293747;
 border-width: .25rem;
@@ -633,7 +638,10 @@ border-width: .25rem;
 
 
 .mapbody img {
-padding: 0 10rem;
+width: 60%;
+border-style: solid;
+border-color: #293747;
+border-width: .25rem;
 }
 
 .mapbodytop p {
@@ -658,8 +666,8 @@ margin: 4rem auto 2rem auto;
 
 
 .spawnbody img {
-padding: 0 10rem;
-border-style: solid;
+  width: 60%;
+  border-style: solid;
   border-color: #293747;
   border-width: .25rem;
 }
@@ -695,13 +703,13 @@ border-style: solid;
 
 .icon h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 2rem;
   font-weight: bold;
   font-size: 1.75rem;
 }
 
   .copy {
-    padding-top: 40px;
+    padding-top: 2rem;
       }
 
 
@@ -738,14 +746,14 @@ border-style: solid;
 
 .icongif h3
 {
-  padding-bottom: 40px;
+  padding-bottom: 2rem;
   font-weight: bold;
   font-size: 1.75rem;
 }
 
 .icongif img {
   display: inline-block;
-  width: 24rem;
+  width: 22rem;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
@@ -779,7 +787,16 @@ div.rcorners4 {
 
 #footer {
   align-content: space-between;
-  background-color: rgb(62, 82, 107);
+  background-color: #293747;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8rem
+}
+
+#footerindex {
+  align-content: space-between;
+  background-color: rgb(29, 40, 51);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -809,7 +826,8 @@ float: left;
 
 .ftcontent p {
 font-weight: bold;
-font-size: 1.6rem;
+font-size: 1.8rem;
 margin-left: 1.5rem;
+font-style: italic;
 }
 }

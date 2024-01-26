@@ -201,9 +201,14 @@ margin-left: 1.3rem;
   font-size: 20px;
 }
 
-.navbar__menu a:focus {
+.navbar__menu a:focus-visible {
   outline:.10rem solid white;
   border-radius:  0px 50px 50px 0px;
+}
+
+#navbar__logo:focus-visible {
+  outline:.10rem solid white;
+  border-radius: 18px;
 }
 
 .currentpagenav
@@ -768,13 +773,21 @@ div.rcorners4 {
 
 #footer {
   align-content: space-between;
-  background-color: rgb(62, 82, 107);
+  background-color: #293747;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 4rem
 }
 
+#footerindex {
+  align-content: space-between;
+  background-color: rgb(29, 40, 51);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem
+}
 
 
 
@@ -798,8 +811,9 @@ float: left;
 
 .ftcontent p {
 font-weight: bold;
-font-size: 1.2rem;
+font-size: 1.4rem;
 margin-left: 1rem;
+font-style: italic;
 }
 }
 
@@ -982,6 +996,17 @@ margin-left: 2rem;
     box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
   }
 
+
+.navbar__menu a:focus-visible {
+  outline:.10rem solid white;
+  border-radius:  0px 50px 50px 0px;
+}
+
+
+#navbar__logo:focus-visible {
+  outline:.10rem solid white;
+  border-radius: 18px;
+}
 
 
 
@@ -1568,7 +1593,16 @@ div.rcorners4 {
 
 #footer {
   align-content: space-between;
-  background-color: rgb(62, 82, 107);
+  background-color: rgb(29, 40, 51);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem
+}
+
+#footerindex {
+  align-content: space-between;
+  background-color: #293747;
   justify-content: center;
   align-items: center;
   width: 100%;

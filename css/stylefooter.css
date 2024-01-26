@@ -3,6 +3,9 @@
 /* vars */
 
 
+#ftcontent :hover{
+  background-color: yellow;
+}
 
 
 :root {
@@ -129,13 +132,13 @@ margin-right: 1vw;
 }
 
 
-.navbar__menu a:focus-visible {
+.navbar__menu a:focus {
   outline:.10rem solid white;
   border-radius: 18px;
 }
 
 
-#navbar__logo:focus-visible {
+#navbar__logo:focus {
   outline:.10rem solid white;
   border-radius: 18px;
 }
@@ -687,23 +690,11 @@ border-width: .25rem;
 
 /*Contact Us*/
 
-#ftcontent :focus-visible{
-  background-color: yellow;
-}
 
 
 
 
 #footer {
-  align-content: space-between;
-  background-color: #293747;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 6rem
-}
-
-#footerindex {
   align-content: space-between;
   background-color: rgb(29, 40, 51);
   justify-content: center;
@@ -711,6 +702,8 @@ border-width: .25rem;
   width: 100%;
   margin-top: 6rem
 }
+
+
 
 
 .ftcontent {
