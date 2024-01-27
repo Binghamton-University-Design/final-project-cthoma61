@@ -365,12 +365,14 @@ margin-left: .9rem;
 .arimagetop h2 {
 font-size: 1.5rem;
 font-weight: bold;
+font-style: italic;
 text-align: center;
 margin: 2rem 0rem 0rem 0rem;
 }
 
 .arimagetop3 {
 font-size: 1.9rem;
+font-style: italic;
 font-weight: 900;
 text-align: center;
 margin: 0rem 0rem 0rem 0rem;
@@ -598,9 +600,10 @@ div.ex2 h1.spawn-peeks:before {
 
 
 .Note h3 {
-font-weight: bold;
+font-weight: 900;
 margin: 1rem 0rem 1rem 0rem;
-font-size: 1.75rem;
+font-size: 2rem;
+font-style: italic;
 }
 
 
@@ -614,23 +617,31 @@ font-size: 1.75rem;
 .mapbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1rem auto;
+font-weight: 900;
+font-style: italic;
 }
 
 
 .mapbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
+font-weight: 900;
+font-style: italic;
 }
 
 
 .spawnbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
+font-weight: 900;
+font-style: italic;
 }
 
 .spawnbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1.7rem auto;
+font-weight: 900;
+font-style: italic;
 }
 
 
@@ -707,7 +718,8 @@ div.rcorners4 {
 .icon h2
 {
   padding-bottom: 24px;
-  font-weight: bold;
+font-weight: 900;
+font-style: italic;
   font-size: 1.5rem;
 }
 
@@ -753,7 +765,8 @@ div.rcorners4 {
 .icongif h2
 {
   padding-bottom: 1.5rem;
-  font-weight: bold;
+  font-weight: 900;
+font-style: italic;
   font-size: 1.5rem;
 }
 
@@ -1197,9 +1210,10 @@ margin-left: .9rem;
 
 .arimagetop h2 {
 font-size: 1.5rem;
-font-weight: bold;
+font-weight: 900;
 text-align: center;
 margin: 4rem 0rem 0rem 0rem;
+font-style: italic;
 }
 
 .arimagetop3 {
@@ -1304,6 +1318,7 @@ div.map-infoinside h2{
   margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
+  font-style: italic;
 }
 
 div.map-infoinside img{
@@ -1425,9 +1440,11 @@ h1.spawn-peeks:before {
 
 
 .Note h3 {
-font-weight: bold;
+font-style: italic;
+font-weight: 900;
 margin: 1rem 0rem 1rem 0rem;
-font-size: 1.75rem;
+font-size: 2rem;
+font-style: italic;
 }
 
 
@@ -1441,23 +1458,31 @@ font-size: 1.75rem;
 .mapbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1rem auto;
+font-style: italic;
+font-weight: 900;
 }
 
 
 .mapbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
+font-style: italic;
+font-weight: 900;
 }
 
 
 .spawnbody h2 {
 font-size: 1.5rem;
 margin: 8rem auto 1rem auto;
+font-style: italic;
+font-weight: 900;
 }
 
 .spawnbodytop h2 {
 font-size: 1.5rem;
 margin: 4rem auto 1.7rem auto;
+font-style: italic;
+font-weight: 900;
 }
 
 
@@ -1534,8 +1559,9 @@ div.rcorners4 {
 .icon h2
 {
   padding-bottom: 24px;
-  font-weight: bold;
   font-size: 1.5rem;
+  font-style: italic;
+font-weight: 900;
 }
 
   .copy {
@@ -1580,7 +1606,8 @@ div.rcorners4 {
 .icongif h2
 {
   padding-bottom: 1.5rem;
-  font-weight: bold;
+  font-style: italic;
+font-weight: 900;
   font-size: 1.5rem;
 }
 
