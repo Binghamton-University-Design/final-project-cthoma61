@@ -649,14 +649,14 @@ font-style: italic;
   max-width: 52ch;
   line-height: 160%;
   word-wrap: break-word;
-  margin: 0 25rem;
+  margin: 0 10rem;
   font-size: 1.25rem;
 }
 
 .copy ul {
   max-width: 56ch;
   line-height: 160%;
-  margin: 0 25rem;
+  margin: 0 10rem;
   list-style-type: disc;
   word-wrap: break-word;
   font-size: 1.25rem;
