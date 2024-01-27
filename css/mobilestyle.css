@@ -836,7 +836,7 @@ font-style: italic;
 
 
 @media only screen and (min-device-width: 480px) 
-                   and (max-device-width: 640px) 
+                   and (max-device-width: 810px) 
                    and (orientation: landscape){
 
 /* vars */
