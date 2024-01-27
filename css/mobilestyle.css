@@ -1,7 +1,7 @@
 /*stylesheet*/
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 810px) {
 
 /* vars */
 :root {
@@ -37,7 +37,7 @@ body {
 
 .up1 {
 
-  margin-top: 3.8rem;
+  margin-top: 1rem;
 }
 
 .up2 {
@@ -335,7 +335,7 @@ div.rcorners2 {
 
 
 #wrapper{
-  margin: 0 auto;
+  margin: 1rem auto;
   max-width: 1200px;
   width: 100%; 
   display: flex;
@@ -817,16 +817,16 @@ font-style: italic;
 
 
 
-.ftcontent img {
+#ftcontent img {
 width: 2rem;
 vertical-align: baseline;
 float: left;
 }
 
 
-.ftcontent p {
+#ftcontent p {
 font-weight: bold;
-font-size: 1.4rem;
+font-size: 1.2rem;
 margin-left: 1rem;
 font-style: italic;
 }
@@ -873,7 +873,7 @@ body {
 
 .up1 {
 
-  margin-top: 3.8rem;
+  margin-top: 1rem;
 }
 
 .up2 {

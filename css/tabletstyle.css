@@ -1,5 +1,5 @@
 /*stylesheet*/
-@media screen and (min-width: 560px) and (max-width: 1230px) {
+@media screen and (min-width: 810px) and (max-width: 1230px) {
 /* vars */
 :root {
   --background-color: rgb(29, 40, 51);
@@ -28,35 +28,48 @@ body {
 
 .indexlogo {
   width: 20rem;
- margin: 2rem auto auto auto;
-  }
+  max-width: 100%;
+  margin: 2rem auto auto auto;
+}
+
 
 
 .navbar {
   background: rgb(29, 40, 51);
   box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
-  height: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: 1.2rem;
   position: sticky;
   top: 0;
+  z-index: 999;
   font-weight: bold;
+  padding: 1.5rem 0;
 }
 
-
+.navbar__container {
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  width: 100%;
+  
+}
 
 #navbar__logo {
-width: 10rem;
-margin: auto 0;
-margin-left: 2rem;
+align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  width: 8rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+
 }
 
 #navbar__logo img {
+  
   width: 100%;
-
-}
+  }
 
 
 .navbar__menu {
@@ -66,6 +79,28 @@ margin-left: 2rem;
 }
 
 
+
+
+
+
+
+.navbar__item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+margin-right: 1.2vw;
+  padding: .5rem .5rem .5rem .5rem;
+}
+
+
+.navbar__item {
+  font-size: 1rem;
+}
+
+.navbar__item img {
+ display: none;
+}
 
 
 
@@ -81,145 +116,30 @@ margin-left: 2rem;
 }
 
 
-
-
-
-  .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0;
-   background: rgb(29, 40, 51);
-  }
-
-  .navbar__menu {
-    
-    margin: 0;
-    position: absolute;
-    top: -1000px;
-    opacity: 1;
-    transition: all 0.1s ease;
-    z-index: -1000;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .navbar__menu.active {
- 
-    border-radius: 0px 0px 50px 0px;
-    max-height: 600rem;
-    width: 25rem;
-    overflow-y: scroll;
-    background: rgb(29, 40, 51);
-    top: 100%;
-    opacity: 1;
-    transition: all 0.1s ease;
-    font-size: 1.6rem;
-    padding-right: 7rem;
-    padding-bottom: 2rem;
-    box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
-  }
-
-
-
-
-.navbar__toggle {
-
-  margin-top: .99rem;
- margin-right: 2rem; 
-}
-
-  .navbar__toggle .bar {
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.1s ease-in-out;
-    background: #fff;
-  }
-
- 
-
-  .navbar__item {
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: .6rem 0;
-  width: 230px;
-  transition: all 0.1s ease;
-  background: rgb(41,55,71);
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-radius:  0px 50px 50px 0px;
-  font-size: 20px;
-}
-
-.navbar__item:hover {
+.navbar__item:hover
+{
   background: rgb(62, 82, 107);
-  transition: all 0.1s ease;
+  border-radius: 18px;
 }
+
 
 .navbar__menu a:focus-visible {
   outline:.10rem solid white;
-  border-radius:  0px 50px 50px 0px;
+  border-radius: 18px;
 }
+
 
 #navbar__logo:focus-visible {
   outline:.10rem solid white;
   border-radius: 18px;
 }
 
+
 .currentpagenav
 {
   background: rgb(62, 82, 107);
+  border-radius: 18px;
 }
-
-
-
-.navbar__item img {
- width: 20%;
- margin-right: 5px;
- margin-left: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
- 
-  #mobile-menu {
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5%, 20%);
-  }
-
-  .navbar__toggle .bar {
-    display: block;
-    cursor: pointer;
-  }
-
-  #mobile-menu.is-active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  #mobile-menu.is-active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  #mobile-menu.is-active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
 
 /*Mobile Nav End*/
 
@@ -256,7 +176,7 @@ body {
 
 .up1 {
 
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 
@@ -334,7 +254,7 @@ div.rcorners2 {
 
 
 #wrapper{
-  margin: 0 auto;
+  margin: 2.6rem auto;
   max-width: 1200px;
   width: 100%; 
   display: flex;
