@@ -834,7 +834,7 @@ font-style: italic;
 
 /*stylesheet*/
 
-
+/*
 @media only screen and (min-device-width: 480px) 
                    and (max-device-width: 640px) 
                    and (orientation: landscape){
@@ -851,7 +851,7 @@ body {
   background: var(--background-color);
 }
 
-
+*/
 .home {
   background-color: rgb(41,55,71);
 }
@@ -1552,7 +1552,7 @@ div.rcorners4 {
 .icon img
 {
   display: inline-block;
-  width: 28%;
+  width: 18%;
 
   }
 
