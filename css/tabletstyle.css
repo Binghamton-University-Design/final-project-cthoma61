@@ -232,14 +232,14 @@ button.spawn-peeks:before, button.spawn-peeks:before {
 
 
 div.ex2 {
-  display: flex;
-  text-align: center;
+  display: none;
+  /*text-align: center;
   font-size: 3.2rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   background-color: rgb(62, 82, 107);
-  padding: 2.8rem 2.8rem;
+  padding: 2.8rem 2.8rem;*/
   }
 
 
