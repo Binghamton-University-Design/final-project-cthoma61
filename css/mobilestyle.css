@@ -158,12 +158,14 @@ margin-left: 1.3rem;
   }
 
   .navbar__menu.active {
-    background: rgb(29, 40, 51);
     top: 100%;
-    opacity: 1;
     transition: all 0.1s ease;
+  }
+
+  .visualnavbar__menu {
     font-size: 1.6rem;
-    padding-bottom: 30px;
+    background: rgb(29, 40, 51);
+    padding-bottom: 2rem;
     box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
   }
 
@@ -195,7 +197,7 @@ margin-left: 1.3rem;
   width: 230px;
   transition: all 0.1s ease;
   background: rgb(41,55,71);
-  margin-top: 15px;
+  margin-top: 2rem;
   margin-bottom: 15px;
   border-radius:  0px 50px 50px 0px;
   font-size: 20px;
@@ -216,6 +218,18 @@ margin-left: 1.3rem;
   background: rgb(62, 82, 107);
 }
 
+
+#outsidenav {
+  display: none;
+}
+
+#outsidenav.active {
+  padding-bottom: 100vw;
+  display: flex;
+  background-color: rgba(0, 0, 0, .9);
+  opacity: 0.3;
+  z-index: -1000;
+}
 
 .navbar__item img {
  width: 20%;

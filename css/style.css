@@ -85,7 +85,11 @@ align-items: center;
 }
 
 
-
+.visualnavbar__menu {
+    display: flex;
+  align-items: center;
+  list-style: none;
+}
 
 
 
