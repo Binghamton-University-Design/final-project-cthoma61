@@ -1,7 +1,7 @@
 /*stylesheet*/
 
 
-@media screen and (max-width: 820px) and (orientation: portrait) {
+@media screen and (max-width: 821px) and (orientation: portrait) {
 
 /* vars */
 :root {
@@ -586,7 +586,7 @@ div.ex2 h1.spawn-peeks:before {
 
 .Note{
     text-align: right;
-  font-size:1.625rem;
+  font-size:1.8rem;
   font-weight: bold;
   align-items: center;
   justify-content: center;
@@ -606,7 +606,7 @@ div.ex2 h1.spawn-peeks:before {
 .Note h3 {
 font-weight: 900;
 margin: 1rem 0rem 1rem 0rem;
-font-size: 2rem;
+font-size: 2.2rem;
 font-style: italic;
 }
 
@@ -619,7 +619,7 @@ font-style: italic;
 }
 
 .mapbodytop h2 {
-font-size: 1.5rem;
+font-size: 2rem;
 margin: 4rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
@@ -627,7 +627,7 @@ font-style: italic;
 
 
 .mapbody h2 {
-font-size: 1.5rem;
+font-size: 2rem;
 margin: 8rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
@@ -635,14 +635,14 @@ font-style: italic;
 
 
 .spawnbody h2 {
-font-size: 1.5rem;
+font-size: 2rem;
 margin: 8rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbodytop h2 {
-font-size: 1.5rem;
+font-size: 2rem;
 margin: 4rem auto 1.7rem auto;
 font-weight: 900;
 font-style: italic;
@@ -721,20 +721,23 @@ div.rcorners4 {
 
 .icon h2
 {
-  padding-bottom: 24px;
+  padding-bottom: 1rem;
 font-weight: 900;
 font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
   .copy {
-    padding-top: 24px;
+    padding-top: 1.2;
+    margin-left: 10vw;
+  margin-right: 10vw;
+
       }
 
 .copy p {
   max-width: 52ch;
-  margin-left: 2.75rem;
-  margin-right: 2.75rem;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 160%;
   font-size: 1rem;
 }
@@ -771,13 +774,13 @@ font-style: italic;
   padding-bottom: 1.5rem;
   font-weight: 900;
 font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 
 .icongif img {
 
-  width: 60%;
+  width: 60vw;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
