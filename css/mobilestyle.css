@@ -224,7 +224,7 @@ margin-left: 1.3rem;
 }
 
 .outsidenav.active {
-  padding-bottom: 100vw;
+  padding-bottom: 100vh;
   display: flex;
   background-color: rgba(0, 0, 0, .9);
   opacity: 0.3;
@@ -535,6 +535,7 @@ width: 70%;
 
 div.ex2 h1 {
   font-size: 2rem;
+  font-weight: 900;
 }
 div.ex2 h1:before {
   display: inline;
