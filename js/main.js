@@ -5,7 +5,7 @@ $(document).ready(function() {
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
-const outside = document.querySelector('#outsidenav')
+const outside = document.querySelector('.outsidenav')
 
 
 // Display Mobile Menu
