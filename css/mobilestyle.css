@@ -714,14 +714,16 @@ div.rcorners4 {
 }
 .icon img
 {
+  padding-top: 1.5rem;
+  padding-bottom: .75rem;
   display: inline-block;
-  width: 28%;
+  width: 20vw;
 
   }
 
 .icon h2
 {
-  padding-bottom: 1rem;
+  
 font-weight: 900;
 font-style: italic;
   font-size: 2rem;
@@ -729,8 +731,8 @@ font-style: italic;
 
   .copy {
     padding-top: 1.2;
-    margin-left: 10vw;
-  margin-right: 10vw;
+    margin-left: 16vw;
+  margin-right: 16vw;
 
       }
 
@@ -738,21 +740,20 @@ font-style: italic;
   max-width: 52ch;
   margin-left: auto;
   margin-right: auto;
-  line-height: 160%;
+  line-height: 1.5;
   font-size: 1rem;
+  font-weight: 500;
 }
 
 .copy ul li{
   max-width: 52ch;
-  width: 80%;
-  margin-left: 2.75rem;
-  margin-right: 2.75rem;
-  line-height: 160%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
   list-style-type: disc;
   word-wrap: break-word;
   font-size: 1rem;
-
-
+  font-weight: 500;
 }
 
 .op-info-item ul li {

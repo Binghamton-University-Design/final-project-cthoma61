@@ -673,15 +673,17 @@ border-width: .25rem;
 
 .copy p {
   max-width: 60ch;
-  line-height: 160%;
+  line-height: 1.5;
   word-wrap: break-word;
+  font-weight: 500;
 }
 
 .copy ul {
   max-width: 60ch;
-  line-height: 160%;
+  line-height: 1.5;
   list-style-type: disc;
   word-wrap: break-word;
+  font-weight: 500;
 }
 
 

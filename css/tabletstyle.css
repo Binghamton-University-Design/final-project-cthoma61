@@ -573,28 +573,28 @@ border-width: .25rem;
 
 .mapbodytop h2 {
 font-size: 2rem;
-margin: 4rem auto 2rem auto;
+margin: 4rem auto 1.5rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .mapbody h2 {
 font-size: 2rem;
-margin: 8rem auto 2rem auto;
+margin: 6.5rem auto 1.5rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbody h2 {
 font-size: 2rem;
-margin: 8rem auto 2rem auto;
+margin: 6.5rem auto 1.5rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbodytop h2 {
 font-size: 2rem;
-margin: 4rem auto 2rem auto;
+margin: 4rem auto 1.5rem auto;
 font-weight: 900;
 font-style: italic;
 }
@@ -651,10 +651,11 @@ font-style: italic;
 
  .copy p {
   max-width: 52ch;
-  line-height: 160%;
+  line-height: 1.5;
   word-wrap: break-word;
   margin: 0 10rem;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .copy ul {
@@ -663,7 +664,8 @@ font-style: italic;
   margin: 0 10rem;
   list-style-type: disc;
   word-wrap: break-word;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }  
 
 
