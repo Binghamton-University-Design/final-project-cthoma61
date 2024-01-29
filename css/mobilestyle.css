@@ -778,7 +778,7 @@ font-style: italic;
 
 .icongif h2
 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   font-weight: 900;
 font-style: italic;
   font-size: 2rem;
@@ -787,7 +787,7 @@ font-style: italic;
 
 .icongif img {
 
-  width: 60vw;
+  width: 50vw;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
