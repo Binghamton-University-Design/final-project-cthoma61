@@ -174,8 +174,8 @@ margin-left: 1.3rem;
 
 .navbar__toggle {
 
- margin-top: .99rem;
- margin-right: 1.3rem; 
+ margin-top: 1rem;
+ margin-right: 1rem; 
 }
 
   .navbar__toggle .bar {
@@ -246,6 +246,11 @@ margin-left: 1.3rem;
     top: 20%;
     right: 5%;
     transform: translate(5%, 20%);
+  }
+
+    #mobile-menu :focus-visible {
+    outline:.02rem solid white;
+    border-radius: 18px;
   }
 
   .navbar__toggle .bar {
