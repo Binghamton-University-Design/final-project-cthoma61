@@ -93,14 +93,15 @@ align-items: center;
   display: flex;
   align-items: center;
   text-decoration: none;
-margin-right: 2vw;
-  padding: .5rem .5rem .5rem .5rem;
+margin-right: 5vw;
+  padding: .75rem .75rem .75rem .75rem;
+   font-size: 1.25rem;
+   font-style: italic;
+   font-weight: 800;
 }
 
 
-.navbar__item {
-  font-size: 1rem;
-}
+
 
 .navbar__item img {
  display: none;
@@ -123,26 +124,26 @@ margin-right: 2vw;
 .navbar__item:hover
 {
   background: rgb(62, 82, 107);
-  border-radius: 18px;
+  border-radius: 10rem;
 }
 
 
 .navbar__menu a:focus-visible {
   outline:.10rem solid white;
-  border-radius: 18px;
+  border-radius: 10rem;
 }
 
 
 #navbar__logo:focus-visible {
   outline:.10rem solid white;
-  border-radius: 18px;
+  border-radius: .5rem;
 }
 
 
 .currentpagenav
 {
   background: rgb(62, 82, 107);
-  border-radius: 18px;
+  border-radius: 10rem;
 }
 
 /*Mobile Nav End*/
@@ -469,13 +470,14 @@ width: 70%;
 
 div.ex2 h1 {
   font-size: 2.25rem;
+  font-weight: 900;
 }
 div.ex2 h1:before{
   display: inline;
   content: '';
   background-size: cover;
   background-repeat: none;
-  padding-left: 2.2em;
+  padding-left: 4rem;
 }
 
 div.ex2 h1.ar-stats:before {

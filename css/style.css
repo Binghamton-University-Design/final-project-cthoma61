@@ -99,7 +99,7 @@ align-items: center;
   display: flex;
   align-items: center;
   text-decoration: none;
-margin-right: 2.5vw;
+  margin-right: 2.5vw;
   padding: .5rem 1.5rem .5rem .4rem;
   font-size: 1.4rem;
   font-weight: 800;
@@ -138,13 +138,13 @@ margin-right: 2.5vw;
 
 .navbar__menu a:focus-visible {
   outline:.10rem solid white;
-  border-radius: 18px;
+  border-radius: 10rem;
 }
 
 
 #navbar__logo:focus-visible {
   outline:.10rem solid white;
-  border-radius: 10rem;
+  border-radius: .5rem;
 }
 
 

@@ -190,14 +190,16 @@ margin-left: 2rem;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: .6rem 0;
+  padding: 1rem 0;
   width: 20rem;
   transition: all 0.1s ease;
   background: rgb(41,55,71);
   margin-top: 2rem;
   margin-bottom: .75rem;
-  border-radius:  0px 50px 50px 0px;
-  font-size: 20px;
+  border-radius:  0rem 3rem 3rem 0rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
 }
 
 .navbar__item:hover {
@@ -574,13 +576,14 @@ width: 70%;
 
 div.ex2 h1 {
   font-size: 2.25rem;
+  font-weight: 900;
 }
 div.ex2 h1:before{
   display: inline;
   content: '';
   background-size: cover;
   background-repeat: none;
-  padding-left: 2.2em;
+  padding-left: 4rem;
 }
 
 div.ex2 h1.ar-stats:before {
