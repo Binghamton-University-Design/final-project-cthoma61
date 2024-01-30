@@ -42,7 +42,7 @@ body {
 
 .navbar {
   background: rgb(29, 40, 51);
-  box-shadow: 0 .2px 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 .0125rem 1.25rem 0 rgba(0, 0, 0, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,9 +206,9 @@ button.spawn-peeks:before, button.spawn-peeks:before {
 
 a.ex1 {
   display: flex;
-  padding: 20px 20px 20px 20px;
+  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   background-color: rgb(29, 40, 51);
-  border-radius: 100px;
+  border-radius: 6.25rem;
   width: 16rem;
   margin: 1.10em auto .95em auto;
   font-weight: bold;
@@ -396,7 +396,7 @@ div.ex2 h1.spawn-peeks:before {
 div.ex2 {
   display: none;
   text-align: center;
-  margin: 50px auto auto auto;
+  margin: 3.25rem auto auto auto;
   font-size: 3.2rem;
   justify-content: center;
   align-items: center;
@@ -407,10 +407,10 @@ div.ex2 {
 
 
 div.rcorners2 {
-  border-radius: 40px;
+  border-radius: 2.5rem;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: inter;
   margin: 8.5rem 2rem auto 2rem;
 }
@@ -420,7 +420,7 @@ div.rcorners2 {
 #wrapper{
   margin: 0 auto;
   margin-top: 6rem;
-  max-width: 1200px;
+  max-width: 75rem;
   width: 100%; 
   display: flex;
 }
@@ -521,7 +521,7 @@ font-size: 3.25rem;
 
 
 .maps {
-  font size: 35px;
+  font size: 2rem;
 }
 
 
@@ -567,9 +567,9 @@ div.rcorners4 {
   
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: inter;
-  margin: 40px auto 15px auto;
+  margin: 2.5rem auto 1rem auto;
 }
 
 
