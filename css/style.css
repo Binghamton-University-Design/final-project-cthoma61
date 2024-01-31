@@ -559,7 +559,7 @@ font-style: italic;
 .spawnbody img {
 border-style: solid;
   border-color: #293747;
-  border-width: .25rem;
+  border-width: .5rem;
 }
 
 
@@ -638,7 +638,7 @@ div.rcorners4 {
   width: 90%;
   border-style: solid;
   border-color: #293747;
-  border-width: .25rem;
+  border-width: .5rem;
   }
 
 
@@ -652,14 +652,14 @@ div.rcorners4 {
 .mapbodytop img {
   border-style: solid;
 border-color: #293747;
-border-width: .25rem;
+border-width: .5rem;
 }
 
 
 .mapbody img {
   border-style: solid;
 border-color: #293747;
-border-width: .25rem;
+border-width: .5rem;
 }
 }
 
@@ -670,7 +670,7 @@ border-width: .25rem;
 
 
   .copy {
-    padding-top:5.2rem;
+    padding-top:4.25rem;
       }
 
 
