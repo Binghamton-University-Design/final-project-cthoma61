@@ -1532,28 +1532,28 @@ border-width: .25rem;
 
 .mapbodytop h2 {
 font-size: 2rem;
-margin: 4rem auto 1.5rem auto;
+margin: 4rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .mapbody h2 {
 font-size: 2rem;
-margin: 6.5rem auto 1.5rem auto;
+margin: 6.5rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbody h2 {
 font-size: 2rem;
-margin: 6.5rem auto 1.5rem auto;
+margin: 6.5rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbodytop h2 {
 font-size: 2rem;
-margin: 4rem auto 1.5rem auto;
+margin: 4rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
@@ -1597,14 +1597,14 @@ font-style: italic;
 
 .icon h2
 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 2rem;
   font-weight: 900;
 font-style: italic;
 }
 
   .copy {
-    padding-top: 2rem;
+    padding-top: 1rem;
       }
 
 
@@ -1643,7 +1643,7 @@ font-style: italic;
 
 .icongif h2
 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 2rem;
   font-weight: 900;
 font-style: italic;
