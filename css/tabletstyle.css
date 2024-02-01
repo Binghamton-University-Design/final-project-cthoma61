@@ -647,7 +647,9 @@ font-style: italic;
 }
 
   .copy {
-    padding-top: 2rem;
+    padding-top: .5rem;
+    margin-left: 16vw;
+  margin-right: 16vw;
       }
 
 
@@ -655,7 +657,8 @@ font-style: italic;
   max-width: 52ch;
   line-height: 1.5;
   word-wrap: break-word;
-  margin: 0 10rem;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.25rem;
   font-weight: 500;
 }
