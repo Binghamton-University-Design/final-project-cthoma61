@@ -722,7 +722,6 @@ div.rcorners4 {
 .icon img
 {
   padding-top: 1.5rem;
-  padding-bottom: .75rem;
   display: inline-block;
   width: 20vw;
 
@@ -744,14 +743,14 @@ font-style: italic;
       }
 
 .copy p {
-  max-width: 52ch;
+  max-width: 64ch;
   line-height: 1.5;
   font-size: .75rem;
-  font-weight: 500;
+  font-weight: normal;
 }
 
 .copy ul li{
-  max-width: 52ch;
+  max-width: 64ch;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.5;
@@ -1607,7 +1606,7 @@ font-style: italic;
 
 
  .copy p {
-  max-width: 52ch;
+  max-width: 64ch;
   line-height: 1.5;
   word-wrap: break-word;
   margin: 0 10rem;
@@ -1616,7 +1615,7 @@ font-style: italic;
 }
 
 .copy ul {
-  max-width: 56ch;
+  max-width: 64ch;
   line-height: 1.5;
   margin: 0 10rem;
   list-style-type: disc;

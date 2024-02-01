@@ -654,7 +654,7 @@ font-style: italic;
 
 
  .copy p {
-  max-width: 52ch;
+  max-width: 64ch;
   line-height: 1.5;
   word-wrap: break-word;
   margin-left: auto;
@@ -664,7 +664,7 @@ font-style: italic;
 }
 
 .copy ul {
-  max-width: 56ch;
+  max-width: 64ch;
   line-height: 160%;
   margin: 0 10rem;
   list-style-type: disc;
