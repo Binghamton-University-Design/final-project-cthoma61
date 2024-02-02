@@ -736,6 +736,7 @@ font-style: italic;
 }
 
   .copy {
+    padding-top: 0;
 
       }
 
@@ -1603,7 +1604,7 @@ font-style: italic;
 }
 
   .copy {
-   
+   padding-top: 0;
       }
 
 
