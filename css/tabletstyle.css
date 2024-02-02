@@ -574,28 +574,28 @@ border-width: .5rem;
 }
 
 .mapbodytop h2 {
-font-size: 2rem;
+font-size: 3rem;
 margin: 4rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .mapbody h2 {
-font-size: 2rem;
-margin: 5rem auto 1rem auto;
+font-size: 3rem;
+margin: 5.25rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbody h2 {
-font-size: 2rem;
-margin: 5rem auto 1rem auto;
+font-size: 3rem;
+margin: 5.25rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
 }
 
 .spawnbodytop h2 {
-font-size: 2rem;
+font-size: 3rem;
 margin: 4rem auto 1rem auto;
 font-weight: 900;
 font-style: italic;
