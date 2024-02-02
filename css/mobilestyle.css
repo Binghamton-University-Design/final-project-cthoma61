@@ -723,7 +723,7 @@ div.rcorners4 {
 {
   padding-top: 1.5rem;
   display: inline-block;
-  width: 20vw;
+  width: 24%;
 
   }
 
@@ -736,17 +736,17 @@ font-style: italic;
 }
 
   .copy {
-    padding-top: .5rem;
-    margin-left: 16vw;
-  margin-right: 16vw;
 
       }
 
 .copy p {
   max-width: 64ch;
+  width: 64%;
   line-height: 1.5;
   font-size: 1rem;
   font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .copy ul li{
@@ -785,7 +785,7 @@ font-style: italic;
 
 .icongif img {
 
-  width: 64vw;
+  width: 64%;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
@@ -1589,6 +1589,8 @@ font-style: italic;
 {
   display: inline-block;
   width: 16%;
+  margin-left: auto;
+  margin-right: auto;
 
   }
 
@@ -1601,16 +1603,18 @@ font-style: italic;
 }
 
   .copy {
-    padding-top: 1rem;
+   
       }
 
 
  .copy p {
   max-width: 64ch;
+  width: 64%;
   line-height: 1.5;
   word-wrap: break-word;
-  margin: 0 10rem;
-  font-size: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -1648,10 +1652,12 @@ font-style: italic;
 
 .icongif img {
   display: inline-block;
-  width: 22rem;
+  width: 64%;
   border-style: solid;
   border-color: #293747;
   border-width: .25rem;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 

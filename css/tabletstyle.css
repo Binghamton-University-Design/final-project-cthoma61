@@ -634,7 +634,7 @@ font-style: italic;
 .icon img
 {
   display: inline-block;
-  width: 16%;
+  width: 12%;
 
   }
 
@@ -648,13 +648,12 @@ font-style: italic;
 
   .copy {
     padding-top: .5rem;
-    margin-left: 16vw;
-  margin-right: 16vw;
       }
 
 
  .copy p {
-  max-width: 64ch;
+  max-width: 50ch;
+  width: 72%;
   line-height: 1.5;
   word-wrap: break-word;
   margin-left: auto;
@@ -664,9 +663,11 @@ font-style: italic;
 }
 
 .copy ul {
+  width: 70%;
   max-width: 64ch;
   line-height: 160%;
-  margin: 0 10rem;
+  margin-left: auto;
+  margin-right: auto;
   list-style-type: disc;
   word-wrap: break-word;
   font-size: 1.5rem;
@@ -697,7 +698,7 @@ font-style: italic;
 
 .icongif img {
   display: inline-block;
-  width: 22rem;
+  width: 60%;
   border-style: solid;
   border-color: #293747;
   border-width: .5rem;
