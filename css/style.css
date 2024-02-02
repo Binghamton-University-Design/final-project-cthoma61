@@ -723,7 +723,7 @@ border-width: .5rem;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 6rem
+  margin-top: 6rem;
 }
 
 #footerindex {
@@ -735,6 +735,7 @@ border-width: .5rem;
   margin-top: 15rem;
   bottom: 0;
   position: relative;
+  z-index: -5000;
 }
 
 
