@@ -721,7 +721,7 @@ div.rcorners4 {
 }
 .icon img
 {
-  padding-top: 1.5rem;
+  
   display: inline-block;
   width: 24%;
 
@@ -729,7 +729,7 @@ div.rcorners4 {
 
 .icon h2
 {
-  
+  padding-bottom: 1rem;
 font-weight: 900;
 font-style: italic;
   font-size: 2rem;
