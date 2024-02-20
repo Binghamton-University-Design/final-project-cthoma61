@@ -394,20 +394,18 @@ div.rcorners1ar {
   background-color: rgb(29, 40, 51);
   padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  width: 18rem; 
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 18rem;
   margin: auto;
 }
 
 
-
-
-
-
 div.rcorners1ar h1 {
   font-weight: bold;
-font-size: 1.18rem;
-margin-bottom: 1.7rem;
-    font-style: italic;
+  font-size: 1.3rem;
+  margin-bottom: 1.7rem;
+font-style: italic;
 }
 
 
