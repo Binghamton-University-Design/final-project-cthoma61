@@ -458,7 +458,7 @@ div.rcorners1 {
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 92%;
+  width: 16rem;
   margin: auto;
 }
 
@@ -481,7 +481,7 @@ div.rcorners1ar {
   background-color: rgb(29, 40, 51);
   padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  width: 92%;  
+  width: 16rem;  
   margin: auto;
 }
 
@@ -1353,7 +1353,7 @@ div.rcorners1 {
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
-  width: 80%;
+  width: 16rem;
   margin: auto;
 }
 
@@ -1374,7 +1374,7 @@ div.rcorners1ar {
   background-color: rgb(29, 40, 51);
   padding: 1.25rem 1rem 2.6rem 1rem;
   text-align: center;
-  width: 80%;
+  width: 16rem; 
   margin: auto;
 }
 
