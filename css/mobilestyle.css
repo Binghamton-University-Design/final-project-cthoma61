@@ -46,16 +46,7 @@ body {
 }
 
 
-button {
-  font-size: 1.5rem;
-}
-button:before, button:before {
-  display: inline;
-  content: '';
-  background-size: cover;
-  background-repeat: none;
-  padding-left: 2.2em;
-}
+
 
 button.ar-stats:before, button.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
@@ -273,6 +264,33 @@ margin-left: 1.3rem;
 
 /*Mobile Nav End*/
 
+
+
+#arrowup {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(29, 40, 51, 0.4);
+  color: rgb(128, 140, 155);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: .6rem .75rem .75rem .75rem;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+#arrowup:hover {
+  background-color: rgb(41, 55, 71, 0.4);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+}
 
 
 
@@ -1105,6 +1123,34 @@ margin-left: 2rem;
 
 /*Mobile Nav End*/
 
+#arrowup {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(29, 40, 51, 0.4);
+  color: rgb(128, 140, 155);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: .6rem .75rem .75rem .75rem;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+#arrowup:hover {
+  background-color: rgb(41, 55, 71, 0.4);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 1);
+}
+
+
+
 
 
 
@@ -1147,16 +1193,6 @@ body {
 }
 
 
-button {
-  font-size: 1.5rem;
-}
-button:before, button:before {
-  display: inline;
-  content: '';
-  background-size: cover;
-  background-repeat: none;
-  padding-left: 2.2em;
-}
 
 button.ar-stats:before, button.ar-stats:before {
   background-image: url('../images/gunv5-01.svg');
